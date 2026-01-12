@@ -68,11 +68,7 @@
     {{- end -}}
 
     {{/* Events list */}}
-    <div class="article-list--tile">
-        {{ range .Pages.ByDate }}
-            {{ partial "article-list/tile" (dict "context" . "size" "350x200" "Type" "article") }}
-        {{ end }}
-    </div>
+    {{ partial "events-list.html" . }}
 
 
 

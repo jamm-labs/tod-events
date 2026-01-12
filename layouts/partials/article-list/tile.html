@@ -3,7 +3,7 @@
 {{ if not $image.exists }}
     {{ $image = dict
         "exists" true
-        "permalink" "/images/default-event.png"
+        "permalink" (relURL "images/default-event.png")
     }}
 {{ end }}
 <article class="{{ if $image.exists }}has-image{{ end }}">
