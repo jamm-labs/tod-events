@@ -1,28 +1,11 @@
 {{ define "main" }}
 
-    <section class="article-list--tile">
-      <h2 class="section-title">Upcoming events</h2>
+<header class="section-header">
+    <h1 class="section-term">Upcoming events</h1>
+</header>
 
-      {{ range first 6 (sort (where site.RegularPages "Section" "events") "Date") }}
-        {{ partial "article-list/tile" (dict "context" . "size" "250x150") }}
-      {{ end }}
-    </section>
-
-
-    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-    {{ $filtered := where $pages "Params.hidden" "!=" true }}
-    {{ $pag := .Paginate ($filtered) }}
-
-    <section class="article-list">
-        {{ range $index, $element := $pag.Pages }}
-            {{ partial "article-list/default" . }}
-        {{ end }}
-    </section>
-
-    {{- partial "pagination.html" . -}}
-    {{- partial "footer/footer" . -}}
+{{ with site.GetPage "section" "events" }}
+    {{ partial "events-list.html" . }}
 {{ end }}
 
-{{ define "right-sidebar" }}
-    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
 {{ end }}
