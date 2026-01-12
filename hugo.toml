@@ -2,6 +2,7 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-gb"
 title = "Todmorden Events"
 theme = "stack"
+publishDir = "docs"
 
 [pagination]
 pagerSize = 20
