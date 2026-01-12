@@ -2,9 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Todmorden Events</title>
-        <link>http://localhost:1313/tags/</link>
+        <link>https://jamm-labs.github.io/tod-events/tags/</link>
         <description>Recent content in Tags on Todmorden Events</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-gb</language><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+        <language>en-gb</language>
+        <lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://jamm-labs.github.io/tod-events/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Coding</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/coding/</link>
+        <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/coding/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Family</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/family/</link>
+        <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/family/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Learning</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/learning/</link>
+        <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/learning/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Community</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/community/</link>
+        <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/community/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Repair</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/repair/</link>
+        <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/repair/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Sustainability</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/sustainability/</link>
+        <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/sustainability/</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>

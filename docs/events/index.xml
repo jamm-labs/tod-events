@@ -2,9 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Upcoming events on Todmorden Events</title>
-        <link>http://localhost:1313/events/</link>
+        <link>https://jamm-labs.github.io/tod-events/events/</link>
         <description>Recent content in Upcoming events on Todmorden Events</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-gb</language><atom:link href="http://localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
+        <language>en-gb</language>
+        <lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://jamm-labs.github.io/tod-events/events/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Family Coding Club</title>
+        <link>https://jamm-labs.github.io/tod-events/events/family-coding-club-2/</link>
+        <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/events/family-coding-club-2/</guid>
+        <description>&lt;p&gt;An informal drop-in coding session for children and families. Activities include simple games, creative coding, and playful experiments with computers.&lt;/p&gt;
+&lt;p&gt;No prior experience needed. Suitable for ages 7+ with an accompanying adult.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Family Coding Club</title>
+        <link>https://jamm-labs.github.io/tod-events/events/family-coding-club/</link>
+        <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/events/family-coding-club/</guid>
+        <description>&lt;p&gt;An informal drop-in coding session for children and families. Activities include simple games, creative coding, and playful experiments with computers.&lt;/p&gt;
+&lt;p&gt;No prior experience needed. Suitable for ages 7+ with an accompanying adult.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Repair Café</title>
+        <link>https://jamm-labs.github.io/tod-events/events/repair-cafe-2/</link>
+        <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/events/repair-cafe-2/</guid>
+        <description>&lt;p&gt;A regular Repair Café where volunteers help fix household items such as small appliances, clothing, and bikes. Bring along something broken and see if it can be repaired rather than thrown away.&lt;/p&gt;
+&lt;p&gt;No charge, donations welcome.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Repair Café</title>
+        <link>https://jamm-labs.github.io/tod-events/events/repair-cafe-3/</link>
+        <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/events/repair-cafe-3/</guid>
+        <description>&lt;p&gt;A regular Repair Café where volunteers help fix household items such as small appliances, clothing, and bikes. Bring along something broken and see if it can be repaired rather than thrown away.&lt;/p&gt;
+&lt;p&gt;No charge, donations welcome.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Repair Café</title>
+        <link>https://jamm-labs.github.io/tod-events/events/repair-cafe/</link>
+        <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/events/repair-cafe/</guid>
+        <description>&lt;p&gt;A regular Repair Café where volunteers help fix household items such as small appliances, clothing, and bikes. Bring along something broken and see if it can be repaired rather than thrown away.&lt;/p&gt;
+&lt;p&gt;No charge, donations welcome.&lt;/p&gt;
+</description>
+        </item>
+        
     </channel>
 </rss>

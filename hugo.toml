@@ -1,4 +1,5 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://jamm-labs.github.io/tod-events/"
+
 languageCode = "en-gb"
 title = "Todmorden Events"
 theme = "stack"
