@@ -1,0 +1,77 @@
+name: Submit an event
+description: Submit a local event to be listed on the Todmorden Events website
+title: "[Event] "
+labels: ["event-submission"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting an event.
+
+        This form collects the information needed to create a new event listing.
+        Submissions are reviewed before being published.
+
+  - type: input
+    id: title
+    attributes:
+      label: Event title
+      description: The name of the event
+      placeholder: Repair Café
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Event date
+      description: Date of the event (YYYY-MM-DD)
+      placeholder: 2026-02-10
+    validations:
+      required: true
+
+  - type: input
+    id: start
+    attributes:
+      label: Start time
+      description: Optional (24-hour format, e.g. 10:00)
+      placeholder: 10:00
+    validations:
+      required: false
+
+  - type: input
+    id: end
+    attributes:
+      label: End time
+      description: Optional (24-hour format, e.g. 13:00)
+      placeholder: 13:00
+    validations:
+      required: false
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Where the event takes place
+      placeholder: Todmorden Town Hall
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Event description
+      description: A short description of the event
+      placeholder: |
+        A friendly community repair event where volunteers help fix household items.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Confirmation
+      options:
+        - label: I confirm that this event is local, lawful, and appropriate to list
+          required: true
