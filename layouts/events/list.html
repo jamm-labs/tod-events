@@ -1,4 +1,10 @@
 {{ define "main" }}
+
+  {{/* Future-only events */}}
+  {{ $now := now }}
+  {{ $events := where .Pages.ByDate "Date" "ge" $now }}
+
+
     <header>
         <h3 class="section-title">
             {{ if eq .Parent (.GetPage "/") }}
@@ -10,7 +16,7 @@
 
         <div class="section-card">
             <div class="section-details">
-                <h3 class="section-count">{{ T "list.page" (len .Pages) }}</h3>
+              <h3 class="section-count">{{ len $events }} upcoming events</h3>
                 <h1 class="section-term">{{ .Title }}</h1>
                 {{ with .Params.description }}
                     <h2 class="section-description">{{ . }}</h2>
@@ -44,6 +50,9 @@
         </div>
     </header>
 
+
+
+
     {{- $subsections := .Sections -}}
     {{- $pages := .Pages | complement $subsections -}}
 
@@ -68,7 +77,7 @@
     {{- end -}}
 
     {{/* Events list */}}
-    {{ partial "events-list.html" . }}
+      {{ partial "events-list.html" (dict "Context" . "Events" $events) }}
 
 
 

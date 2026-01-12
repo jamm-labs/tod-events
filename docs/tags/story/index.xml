@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Story on Todmorden Events</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/story/</link>
+        <description>Recent content in Story on Todmorden Events</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-gb</language>
+        <lastBuildDate>Sat, 31 Jan 2026 10:30:00 +0000</lastBuildDate><atom:link href="https://jamm-labs.github.io/tod-events/tags/story/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Side missions and mini quests workshop</title>
+        <link>https://jamm-labs.github.io/tod-events/events/side_missions/</link>
+        <pubDate>Sat, 31 Jan 2026 10:30:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/events/side_missions/</guid>
+        <description>&lt;p&gt;A short, guided workshop on designing side missions and mini quests to add choice, challenge, and humour to your game.&lt;/p&gt;
+&lt;p&gt;Bring a laptop if you can. We will have a small number available to borrow.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

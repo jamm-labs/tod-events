@@ -1,8 +1,7 @@
 ---
 title: "Repair Café"
-date: 2026-02-10
-start: "10:00"
-end: "13:00"
+date: 2026-02-10T10:00:00
+end: 2026-02-10T13:00:00
 location: "Todmorden Town Hall"
 tags: ["community", "repair", "sustainability"]
 draft: false

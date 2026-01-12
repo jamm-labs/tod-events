@@ -6,10 +6,10 @@
         <description>Recent content in Tags on Todmorden Events</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-gb</language>
-        <lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://jamm-labs.github.io/tod-events/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 21 Feb 2026 10:30:00 +0000</lastBuildDate><atom:link href="https://jamm-labs.github.io/tod-events/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Coding</title>
         <link>https://jamm-labs.github.io/tod-events/tags/coding/</link>
-        <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 21 Feb 2026 10:30:00 +0000</pubDate>
         
         <guid>https://jamm-labs.github.io/tod-events/tags/coding/</guid>
         <description></description>
@@ -17,7 +17,7 @@
         <item>
         <title>Family</title>
         <link>https://jamm-labs.github.io/tod-events/tags/family/</link>
-        <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 21 Feb 2026 10:30:00 +0000</pubDate>
         
         <guid>https://jamm-labs.github.io/tod-events/tags/family/</guid>
         <description></description>
@@ -25,15 +25,47 @@
         <item>
         <title>Learning</title>
         <link>https://jamm-labs.github.io/tod-events/tags/learning/</link>
-        <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 21 Feb 2026 10:30:00 +0000</pubDate>
         
         <guid>https://jamm-labs.github.io/tod-events/tags/learning/</guid>
         <description></description>
         </item>
         <item>
+        <title>Beginner Friendly</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/beginner-friendly/</link>
+        <pubDate>Fri, 20 Feb 2026 14:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/beginner-friendly/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Game Jam</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/game-jam/</link>
+        <pubDate>Fri, 20 Feb 2026 14:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/game-jam/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Rapid Prototyping</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/rapid-prototyping/</link>
+        <pubDate>Fri, 20 Feb 2026 14:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/rapid-prototyping/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Teams</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/teams/</link>
+        <pubDate>Fri, 20 Feb 2026 14:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/teams/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Community</title>
         <link>https://jamm-labs.github.io/tod-events/tags/community/</link>
-        <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 10 Feb 2026 10:00:00 +0000</pubDate>
         
         <guid>https://jamm-labs.github.io/tod-events/tags/community/</guid>
         <description></description>
@@ -41,7 +73,7 @@
         <item>
         <title>Repair</title>
         <link>https://jamm-labs.github.io/tod-events/tags/repair/</link>
-        <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 10 Feb 2026 10:00:00 +0000</pubDate>
         
         <guid>https://jamm-labs.github.io/tod-events/tags/repair/</guid>
         <description></description>
@@ -49,9 +81,97 @@
         <item>
         <title>Sustainability</title>
         <link>https://jamm-labs.github.io/tod-events/tags/sustainability/</link>
-        <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 10 Feb 2026 10:00:00 +0000</pubDate>
         
         <guid>https://jamm-labs.github.io/tod-events/tags/sustainability/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Design</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/design/</link>
+        <pubDate>Sat, 07 Feb 2026 11:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/design/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Game Making</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/game-making/</link>
+        <pubDate>Sat, 07 Feb 2026 11:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/game-making/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Graphics</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/graphics/</link>
+        <pubDate>Sat, 07 Feb 2026 11:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/graphics/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Pixel Art</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/pixel-art/</link>
+        <pubDate>Sat, 07 Feb 2026 11:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/pixel-art/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Game Design</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/game-design/</link>
+        <pubDate>Sat, 31 Jan 2026 10:30:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/game-design/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Level Design</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/level-design/</link>
+        <pubDate>Sat, 31 Jan 2026 10:30:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/level-design/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Story</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/story/</link>
+        <pubDate>Sat, 31 Jan 2026 10:30:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/story/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Workshop</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/workshop/</link>
+        <pubDate>Sat, 31 Jan 2026 10:30:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/workshop/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Creative Coding</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/creative-coding/</link>
+        <pubDate>Sat, 24 Jan 2026 13:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/creative-coding/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Drop-In</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/drop-in/</link>
+        <pubDate>Sat, 24 Jan 2026 13:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/drop-in/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Families</title>
+        <link>https://jamm-labs.github.io/tod-events/tags/families/</link>
+        <pubDate>Sat, 24 Jan 2026 13:00:00 +0000</pubDate>
+        
+        <guid>https://jamm-labs.github.io/tod-events/tags/families/</guid>
         <description></description>
         </item>
         

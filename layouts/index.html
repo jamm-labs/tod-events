@@ -4,8 +4,16 @@
     <h1 class="section-term">Upcoming events</h1>
 </header>
 
-{{ with site.GetPage "section" "events" }}
-    {{ partial "events-list.html" . }}
-{{ end }}
+{{ $now := now }}
+
+{{/* Get only events, then filter, then order */}}
+{{ $events := where site.RegularPages "Section" "events" }}
+{{ $events = where $events "Date" "ge" $now }}
+{{ $events = $events.ByDate }}
+
+{{ partial "events-list.html" (dict
+  "Context" .
+  "Events" $events
+) }}
 
 {{ end }}

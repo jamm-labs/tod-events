@@ -1,9 +1,28 @@
-<div class="article-list--tile">
-    {{ range where .Pages.ByDate "Date" ">=" now }}
-        {{ partial "article-list/tile" (dict
+{{/* events-list.html — expects .Events */}}
+
+{{ $events := .Events.ByDate }}
+
+{{ if eq (len $events) 0 }}
+  <p>No upcoming events.</p>
+{{ else }}
+
+  {{ $grouped := $events.GroupByDate "2006-01-02" "asc" }}
+
+
+  {{ range $grouped }}
+    <section class="event-day">
+      <h2>{{ .Key | time.Format "Monday 2 January 2006" }}</h2>
+
+      <div class="article-list--tile">
+        {{ range .Pages }}
+          {{ partial "article-list/tile" (dict
             "context" .
             "size" "350x200"
             "Type" "article"
-        ) }}
-    {{ end }}
-</div>
+          ) }}
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+{{ end }}
