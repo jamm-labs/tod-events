@@ -44,11 +44,12 @@
             </h2>
 
             <div class="article-meta">
-                <span class="article-date">
-                    {{ .context.Date.Format "Mon 2 January 2006" }}
-                    {{ with .context.Params.start }} · {{ . }}{{ end }}
-                    {{ with .context.Params.end }}–{{ . }}{{ end }}
-                </span>
+              <span class="article-date">
+                  {{ .context.Date | time.Format "Mon 2 January 2006" }}
+                  {{ with .context.Params.end }}
+                      · {{ $.context.Date | time.Format "15:04" }}–{{ time.Format "15:04" . }}
+                  {{ end }}
+              </span>
 
                 {{ with .context.Params.location }}
                     <span class="article-category">
