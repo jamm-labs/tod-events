@@ -1,0 +1,16 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-gb"
+title = "Todmorden Events"
+theme = "stack"
+
+[pagination]
+pagerSize = 20
+
+mainSections = ["events"]
+
+# [build]
+# future = true
+
+buildFuture = true
+buildDrafts = false
+buildExpired = false
