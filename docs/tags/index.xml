@@ -6,7 +6,15 @@
         <description>Recent content in Tags on Todmorden Events</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-gb</language>
-        <lastBuildDate>Sat, 21 Feb 2026 10:30:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tod-events/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 04 Mar 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tod-events/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Event-Submission</title>
+        <link>http://localhost:1313/tod-events/tags/event-submission/</link>
+        <pubDate>Wed, 04 Mar 2026 10:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tod-events/tags/event-submission/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Coding</title>
         <link>http://localhost:1313/tod-events/tags/coding/</link>
         <pubDate>Sat, 21 Feb 2026 10:30:00 +0000</pubDate>

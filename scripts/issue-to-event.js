@@ -96,6 +96,22 @@ function ensureImagesInDescription(descriptionText, allBodyText) {
   return desc.trim();
 }
 
+function extractCheckedTags(label) {
+  const section = extractSection(label);
+  if (!section) return [];
+
+  return section
+    .split("\n")
+    .filter(line => line.trim().startsWith("- [x]"))
+    .map(line =>
+      line
+        .replace("- [x]", "")
+        .trim()
+        .toLowerCase()
+        .replace(/\s+/g, "-")
+    );
+}
+
 /* ----------------------------
    Extract fields
 ----------------------------- */
@@ -142,12 +158,18 @@ const outPath = path.join(outDir, filename);
 
 fs.mkdirSync(outDir, { recursive: true });
 
+const tagsFromIssue = extractCheckedTags("Event tags");
+const finalTags = tagsFromIssue.length
+  ? tagsFromIssue
+  : ["event-submission"];
+
+
 let frontMatter = `---\n`;
 frontMatter += `title: "${eventTitle.replace(/"/g, '\\"')}"\n`;
 frontMatter += `date: ${dateStart}\n`;
 if (dateEnd) frontMatter += `end: ${dateEnd}\n`;
 frontMatter += `location: "${location.replace(/"/g, '\\"')}"\n`;
-frontMatter += `tags: ["event-submission"]\n`;
+frontMatter += `tags: [${finalTags.map(t => `"${t}"`).join(", ")}]\n`;
 frontMatter += `draft: false\n`;
 frontMatter += `---\n`;
 
@@ -157,5 +179,9 @@ const content =
   `<!-- Generated from issue #${issueNumber}. Edit as needed before merging. -->\n`;
 
 fs.writeFileSync(outPath, content, "utf8");
+
+
+
+
 
 console.log(`Event written to ${outPath}`);

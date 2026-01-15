@@ -69,6 +69,22 @@ body:
       required: true
 
   - type: checkboxes
+    id: tags
+    attributes:
+      label: Event tags
+      description: Select all that apply
+      options:
+        - label: Coding
+        - label: Game making
+        - label: Family
+        - label: Workshop
+        - label: Drop-in
+        - label: Community
+        - label: Repair
+        - label: Sustainability
+
+
+  - type: checkboxes
     id: consent
     attributes:
       label: Confirmation
