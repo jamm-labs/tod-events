@@ -1,8 +1,3 @@
-console.log("=== RAW ISSUE BODY START ===");
-console.log(body);
-console.log("=== RAW ISSUE BODY END ===");
-
-
 // scripts/issue-to-event.js
 // Convert a GitHub Issue Form submission into a Hugo event Markdown file.
 // - Robust image handling (attribute order independent)
@@ -15,6 +10,10 @@ const path = require("path");
 const issueTitle = process.env.ISSUE_TITLE || "";
 const body = process.env.ISSUE_BODY || "";
 const issueNumber = process.env.ISSUE_NUMBER || "0";
+
+console.log("=== RAW ISSUE BODY START ===");
+console.log(body);
+console.log("=== RAW ISSUE BODY END ===");
 
 /* ----------------------------
    Helpers
