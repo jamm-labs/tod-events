@@ -2,16 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Coding on Todmorden Events</title>
-        <link>https://jamm-labs.github.io/tod-events/tags/coding/</link>
+        <link>http://localhost:1313/tod-events/tags/coding/</link>
         <description>Recent content in Coding on Todmorden Events</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-gb</language>
-        <lastBuildDate>Thu, 05 Mar 2026 10:00:00 +0000</lastBuildDate><atom:link href="https://jamm-labs.github.io/tod-events/tags/coding/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 06 Mar 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tod-events/tags/coding/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Test Title 6</title>
+        <link>http://localhost:1313/tod-events/events/2026-03-06-test-title-6/</link>
+        <pubDate>Fri, 06 Mar 2026 10:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tod-events/events/2026-03-06-test-title-6/</guid>
+        <description>&lt;p&gt;TESt/&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/user-attachments/assets/4de01d89-1361-42f1-af0e-2798ee9ae3fe&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Test Title 4</title>
-        <link>https://jamm-labs.github.io/tod-events/events/2026-03-05-test-title-4/</link>
+        <link>http://localhost:1313/tod-events/events/2026-03-05-test-title-4/</link>
         <pubDate>Thu, 05 Mar 2026 10:00:00 +0000</pubDate>
         
-        <guid>https://jamm-labs.github.io/tod-events/events/2026-03-05-test-title-4/</guid>
+        <guid>http://localhost:1313/tod-events/events/2026-03-05-test-title-4/</guid>
         <description>&lt;p&gt;TESt/&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://github.com/user-attachments/assets/4de01d89-1361-42f1-af0e-2798ee9ae3fe&#34;
 	
@@ -27,10 +46,10 @@
         </item>
         <item>
         <title>Family Coding Club</title>
-        <link>https://jamm-labs.github.io/tod-events/events/family-coding-club/</link>
+        <link>http://localhost:1313/tod-events/events/family-coding-club/</link>
         <pubDate>Sat, 21 Feb 2026 10:30:00 +0000</pubDate>
         
-        <guid>https://jamm-labs.github.io/tod-events/events/family-coding-club/</guid>
+        <guid>http://localhost:1313/tod-events/events/family-coding-club/</guid>
         <description>&lt;p&gt;An informal drop-in coding session for children and families. Activities include simple games, creative coding, and playful experiments with computers.&lt;/p&gt;
 &lt;p&gt;No prior experience needed. Suitable for ages 7+ with an accompanying adult.&lt;/p&gt;
 </description>
