@@ -1,9 +1,11 @@
 // scripts/issue-to-event.js
 // Convert a GitHub Issue Form submission into a Hugo event Markdown file.
-// - Uses ISSUE_TITLE as the event title (Issue Forms behaviour)
-// - Extracts remaining fields from section headings
-// - Normalises <img> HTML to Markdown image syntax
-// - Generates Hugo-compatible front matter
+// Robust approach:
+// - Extract fields from headings (### Event date, etc.)
+// - Title can come from ISSUE_TITLE or "### Event title" (supports both)
+// - Description comes from "### Event description"
+// - Images are detected anywhere in the issue body and appended if missing
+// - Converts <img ...> to Markdown images
 
 const fs = require("fs");
 const path = require("path");
@@ -20,14 +22,14 @@ function escapeRegExp(str) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-function extractSection(label) {
+function extractSection(label, text = body) {
   const re = new RegExp(
     `###\\s+${escapeRegExp(label)}\\s*\\n+([\\s\\S]*?)(?=\\n###\\s+|$)`,
     "m"
   );
-  const match = body.match(re);
+  const match = text.match(re);
   if (!match) return "";
-  return match[1].trim().replace(/\r/g, "");
+  return match[1].replace(/\r/g, "").trim();
 }
 
 function slugify(text) {
@@ -40,30 +42,70 @@ function slugify(text) {
     .slice(0, 80);
 }
 
-function normaliseImages(text) {
-  if (!text) return text;
+function imgTagToMarkdown(imgTag) {
+  const srcMatch = imgTag.match(/src="([^"]+)"/i);
+  if (!srcMatch) return null;
 
-  return text.replace(/<img[^>]*>/gi, (imgTag) => {
-    const srcMatch = imgTag.match(/src="([^"]+)"/i);
-    if (!srcMatch) return imgTag;
+  const altMatch = imgTag.match(/alt="([^"]*)"/i);
+  const alt = (altMatch ? altMatch[1] : "Event image").trim() || "Event image";
+  const src = srcMatch[1].trim();
 
-    const altMatch = imgTag.match(/alt="([^"]*)"/i);
-    const alt = altMatch ? altMatch[1] : "Event image";
-    const src = srcMatch[1];
+  return `![${alt}](${src})`;
+}
 
-    return `![${alt}](${src})`;
+function extractImagesAnywhere(text) {
+  const images = new Set();
+
+  // 1) HTML <img ...>
+  const imgTags = text.match(/<img[^>]*>/gi) || [];
+  for (const tag of imgTags) {
+    const md = imgTagToMarkdown(tag);
+    if (md) images.add(md);
+  }
+
+  // 2) Markdown images ![alt](url)
+  const mdImgRe = /!\[([^\]]*)\]\(([^)]+)\)/g;
+  let m;
+  while ((m = mdImgRe.exec(text)) !== null) {
+    const alt = (m[1] || "Event image").trim() || "Event image";
+    const url = (m[2] || "").trim();
+    if (url) images.add(`![${alt}](${url})`);
+  }
+
+  return Array.from(images);
+}
+
+function ensureImagesInDescription(descriptionText, allBodyText) {
+  const descHasImg =
+    /<img\b/i.test(descriptionText) || /!\[[^\]]*\]\([^)]+\)/.test(descriptionText);
+
+  // Normalise any <img> tags *within* the description itself
+  let desc = descriptionText.replace(/<img[^>]*>/gi, (tag) => {
+    const md = imgTagToMarkdown(tag);
+    return md ? md : tag;
   });
+
+  if (!descHasImg) {
+    // If description didn’t include images, append any images found elsewhere in the body
+    const imgs = extractImagesAnywhere(allBodyText);
+    if (imgs.length) {
+      desc = `${desc}\n\n${imgs.join("\n\n")}`;
+    }
+  }
+
+  return desc.trim();
 }
 
 /* ----------------------------
    Extract fields
 ----------------------------- */
 
-// IMPORTANT: Issue Forms do NOT include a "### Event title" section.
-// The title input becomes the ISSUE TITLE.
-const eventTitle = issueTitle
-  .replace(/^\[event\]\s*/i, "")
-  .trim();
+// Support BOTH patterns:
+// - Issue Forms where title is in ISSUE_TITLE only
+// - Issue Forms where a "### Event title" field is present
+const eventTitle =
+  extractSection("Event title") ||
+  issueTitle.replace(/^\[event\]\s*/i, "").trim();
 
 const date = extractSection("Event date");        // YYYY-MM-DD
 const start = extractSection("Start time");       // HH:MM (optional)
@@ -84,9 +126,7 @@ if (!rawDescription) throw new Error("Missing Event description");
    Build datetimes
 ----------------------------- */
 
-// Default start time if omitted, keeps Hugo ordering predictable
 const startTime = start ? start : "10:00";
-
 const dateStart = `${date}T${startTime}:00`;
 const dateEnd = end ? `${date}T${end}:00` : "";
 
@@ -94,11 +134,9 @@ const dateEnd = end ? `${date}T${end}:00` : "";
    Build content
 ----------------------------- */
 
-const description = normaliseImages(rawDescription);
+const description = ensureImagesInDescription(rawDescription, body);
 
-const filename =
-  `${date}-${slugify(eventTitle) || `issue-${issueNumber}`}.md`;
-
+const filename = `${date}-${slugify(eventTitle) || `issue-${issueNumber}`}.md`;
 const outDir = path.join("content", "events");
 const outPath = path.join(outDir, filename);
 
