@@ -1,8 +1,9 @@
 // scripts/issue-to-event.js
 // Convert a GitHub Issue Form submission into a Hugo event Markdown file.
-// - Robust image handling (attribute order independent)
-// - Hugo-safe datetime construction
-// - Designed for clarity over cleverness
+// - Uses ISSUE_TITLE as the event title (Issue Forms behaviour)
+// - Extracts remaining fields from section headings
+// - Normalises <img> HTML to Markdown image syntax
+// - Generates Hugo-compatible front matter
 
 const fs = require("fs");
 const path = require("path");
@@ -10,10 +11,6 @@ const path = require("path");
 const issueTitle = process.env.ISSUE_TITLE || "";
 const body = process.env.ISSUE_BODY || "";
 const issueNumber = process.env.ISSUE_NUMBER || "0";
-
-console.log("=== RAW ISSUE BODY START ===");
-console.log(body);
-console.log("=== RAW ISSUE BODY END ===");
 
 /* ----------------------------
    Helpers
@@ -62,13 +59,15 @@ function normaliseImages(text) {
    Extract fields
 ----------------------------- */
 
-const eventTitle =
-  extractSection("Event title") ||
-  issueTitle.replace(/^\[event\]\s*/i, "").trim();
+// IMPORTANT: Issue Forms do NOT include a "### Event title" section.
+// The title input becomes the ISSUE TITLE.
+const eventTitle = issueTitle
+  .replace(/^\[event\]\s*/i, "")
+  .trim();
 
-const date = extractSection("Event date");       // YYYY-MM-DD
-const start = extractSection("Start time");      // HH:MM (optional)
-const end = extractSection("End time");          // HH:MM (optional)
+const date = extractSection("Event date");        // YYYY-MM-DD
+const start = extractSection("Start time");       // HH:MM (optional)
+const end = extractSection("End time");           // HH:MM (optional)
 const location = extractSection("Location");
 const rawDescription = extractSection("Event description");
 
@@ -76,7 +75,7 @@ const rawDescription = extractSection("Event description");
    Validate required fields
 ----------------------------- */
 
-if (!eventTitle) throw new Error("Missing Event title");
+if (!eventTitle) throw new Error("Missing event title");
 if (!date) throw new Error("Missing Event date (YYYY-MM-DD)");
 if (!location) throw new Error("Missing Location");
 if (!rawDescription) throw new Error("Missing Event description");
@@ -85,7 +84,9 @@ if (!rawDescription) throw new Error("Missing Event description");
    Build datetimes
 ----------------------------- */
 
+// Default start time if omitted, keeps Hugo ordering predictable
 const startTime = start ? start : "10:00";
+
 const dateStart = `${date}T${startTime}:00`;
 const dateEnd = end ? `${date}T${end}:00` : "";
 
