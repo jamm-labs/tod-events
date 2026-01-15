@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pixel Art on Todmorden Events</title>
-        <link>http://localhost:1313/tod-events/tags/pixel-art/</link>
+        <link>https://jamm-labs.github.io/tod-events/tags/pixel-art/</link>
         <description>Recent content in Pixel Art on Todmorden Events</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-gb</language>
-        <lastBuildDate>Sat, 07 Feb 2026 11:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tod-events/tags/pixel-art/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 07 Feb 2026 11:00:00 +0000</lastBuildDate><atom:link href="https://jamm-labs.github.io/tod-events/tags/pixel-art/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Pixel art for games, characters and tiles</title>
-        <link>http://localhost:1313/tod-events/events/pixel-art/</link>
+        <link>https://jamm-labs.github.io/tod-events/events/pixel-art/</link>
         <pubDate>Sat, 07 Feb 2026 11:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tod-events/events/pixel-art/</guid>
+        <guid>https://jamm-labs.github.io/tod-events/events/pixel-art/</guid>
         <description>&lt;p&gt;A practical session focused on making simple sprites, character animations, and tiles for top-down and platform games.&lt;/p&gt;
 &lt;p&gt;Beginners welcome. Suitable for ages 9+ with an accompanying adult.&lt;/p&gt;
 </description>
