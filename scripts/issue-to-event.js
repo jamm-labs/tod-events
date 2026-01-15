@@ -119,9 +119,8 @@ function extractCheckedTags(label) {
 // Support BOTH patterns:
 // - Issue Forms where title is in ISSUE_TITLE only
 // - Issue Forms where a "### Event title" field is present
-const eventTitle =
-  extractSection("Event title") ||
-  issueTitle.replace(/^\[event\]\s*/i, "").trim();
+const eventTitle = issueTitle.trim();
+
 
 const date = extractSection("Event date");        // YYYY-MM-DD
 const start = extractSection("Start time");       // HH:MM (optional)
