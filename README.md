@@ -11,6 +11,9 @@ This README explains:
 
 It is written for people who are **new to Hugo**.
 
+Here are some notes from our meeting on 12th Jan 2026 - 
+http://pad.riseup.net/p/tod-events-keep
+
 ---
 
 ## 1. What this project is (and isn’t)
