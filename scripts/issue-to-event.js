@@ -96,21 +96,42 @@ function ensureImagesInDescription(descriptionText, allBodyText) {
   return desc.trim();
 }
 
-function extractCheckedTags(label) {
-  const section = extractSection(label);
-  if (!section) return [];
 
-  return section
-    .split("\n")
-    .map(line => line.trim())
-    .filter(line => /^\- \[x\]\s+/i.test(line))
-    .map(line =>
-      line
+function extractCheckedTags(label) {
+  const tags = new Set();
+
+  const lines = body.split("\n");
+
+  let inTagSection = false;
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+
+    // Enter tag section
+    if (line.toLowerCase() === `### ${label.toLowerCase()}`) {
+      inTagSection = true;
+      continue;
+    }
+
+    // Exit when another section starts
+    if (inTagSection && line.startsWith("### ")) {
+      inTagSection = false;
+    }
+
+    // Capture checked boxes while in section
+    if (inTagSection && /^\- \[x\]\s+/i.test(line)) {
+      const tag = line
         .replace(/^\- \[x\]\s+/i, "")
         .toLowerCase()
-        .replace(/\s+/g, "-")
-    );
+        .replace(/\s+/g, "-");
+
+      tags.add(tag);
+    }
+  }
+
+  return Array.from(tags);
 }
+
 
 
 /* ----------------------------
