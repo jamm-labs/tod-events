@@ -2,96 +2,96 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Todmorden Events</title>
-        <link>https://jamm-labs.github.io/tod-events/</link>
+        <link>http://localhost:1313/tod-events/</link>
         <description>Recent content on Todmorden Events</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-gb</language>
-        <lastBuildDate>Sat, 21 Feb 2026 10:30:00 +0000</lastBuildDate><atom:link href="https://jamm-labs.github.io/tod-events/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 21 Feb 2026 10:30:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tod-events/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Family Coding Club</title>
-        <link>https://jamm-labs.github.io/tod-events/events/family-coding-club/</link>
+        <link>http://localhost:1313/tod-events/events/family-coding-club/</link>
         <pubDate>Sat, 21 Feb 2026 10:30:00 +0000</pubDate>
         
-        <guid>https://jamm-labs.github.io/tod-events/events/family-coding-club/</guid>
+        <guid>http://localhost:1313/tod-events/events/family-coding-club/</guid>
         <description>&lt;p&gt;An informal drop-in coding session for children and families. Activities include simple games, creative coding, and playful experiments with computers.&lt;/p&gt;
 &lt;p&gt;No prior experience needed. Suitable for ages 7+ with an accompanying adult.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Game jam taster, build a tiny game in two hours</title>
-        <link>https://jamm-labs.github.io/tod-events/events/game-jam-taster/</link>
+        <link>http://localhost:1313/tod-events/events/game-jam-taster/</link>
         <pubDate>Fri, 20 Feb 2026 14:00:00 +0000</pubDate>
         
-        <guid>https://jamm-labs.github.io/tod-events/events/game-jam-taster/</guid>
+        <guid>http://localhost:1313/tod-events/events/game-jam-taster/</guid>
         <description>&lt;p&gt;A relaxed introduction to game jams. We will form small teams (or work solo), pick a playful theme, and build a tiny game using a starter template.&lt;/p&gt;
 &lt;p&gt;No experience needed. Bring a laptop if you can.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Repair Café</title>
-        <link>https://jamm-labs.github.io/tod-events/events/repair-cafe/</link>
+        <link>http://localhost:1313/tod-events/events/repair-cafe/</link>
         <pubDate>Tue, 10 Feb 2026 10:00:00 +0000</pubDate>
         
-        <guid>https://jamm-labs.github.io/tod-events/events/repair-cafe/</guid>
+        <guid>http://localhost:1313/tod-events/events/repair-cafe/</guid>
         <description>&lt;p&gt;A regular Repair Café where volunteers help fix household items such as small appliances, clothing, and bikes. Bring along something broken and see if it can be repaired rather than thrown away.&lt;/p&gt;
 &lt;p&gt;No charge, donations welcome.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Pixel art for games, characters and tiles</title>
-        <link>https://jamm-labs.github.io/tod-events/events/pixel-art/</link>
+        <link>http://localhost:1313/tod-events/events/pixel-art/</link>
         <pubDate>Sat, 07 Feb 2026 11:00:00 +0000</pubDate>
         
-        <guid>https://jamm-labs.github.io/tod-events/events/pixel-art/</guid>
+        <guid>http://localhost:1313/tod-events/events/pixel-art/</guid>
         <description>&lt;p&gt;A practical session focused on making simple sprites, character animations, and tiles for top-down and platform games.&lt;/p&gt;
 &lt;p&gt;Beginners welcome. Suitable for ages 9+ with an accompanying adult.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Side missions and mini quests workshop</title>
-        <link>https://jamm-labs.github.io/tod-events/events/side_missions/</link>
+        <link>http://localhost:1313/tod-events/events/side_missions/</link>
         <pubDate>Sat, 31 Jan 2026 10:30:00 +0000</pubDate>
         
-        <guid>https://jamm-labs.github.io/tod-events/events/side_missions/</guid>
+        <guid>http://localhost:1313/tod-events/events/side_missions/</guid>
         <description>&lt;p&gt;A short, guided workshop on designing side missions and mini quests to add choice, challenge, and humour to your game.&lt;/p&gt;
 &lt;p&gt;Bring a laptop if you can. We will have a small number available to borrow.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>JAMM Labs game making drop-in</title>
-        <link>https://jamm-labs.github.io/tod-events/events/game_making/</link>
+        <link>http://localhost:1313/tod-events/events/game_making/</link>
         <pubDate>Sat, 24 Jan 2026 13:00:00 +0000</pubDate>
         
-        <guid>https://jamm-labs.github.io/tod-events/events/game_making/</guid>
+        <guid>http://localhost:1313/tod-events/events/game_making/</guid>
         <description>&lt;p&gt;An informal drop-in for children, young people, and families to explore game making using simple templates, pixel art, and playful experiments.&lt;/p&gt;
 &lt;p&gt;Suitable for ages 8+ with an accompanying adult. No prior coding experience needed.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>JAMM Labs game making drop-in</title>
-        <link>https://jamm-labs.github.io/tod-events/events/game_making2/</link>
+        <link>http://localhost:1313/tod-events/events/game_making2/</link>
         <pubDate>Sat, 24 Jan 2026 13:00:00 +0000</pubDate>
         
-        <guid>https://jamm-labs.github.io/tod-events/events/game_making2/</guid>
+        <guid>http://localhost:1313/tod-events/events/game_making2/</guid>
         <description>&lt;p&gt;An informal drop-in for children, young people, and families to explore game making using simple templates, pixel art, and playful experiments.&lt;/p&gt;
 &lt;p&gt;Suitable for ages 8+ with an accompanying adult. No prior coding experience needed.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>JAMM Labs game making drop-in</title>
-        <link>https://jamm-labs.github.io/tod-events/events/game_making3/</link>
+        <link>http://localhost:1313/tod-events/events/game_making3/</link>
         <pubDate>Sat, 24 Jan 2026 13:00:00 +0000</pubDate>
         
-        <guid>https://jamm-labs.github.io/tod-events/events/game_making3/</guid>
+        <guid>http://localhost:1313/tod-events/events/game_making3/</guid>
         <description>&lt;p&gt;An informal drop-in for children, young people, and families to explore game making using simple templates, pixel art, and playful experiments.&lt;/p&gt;
 &lt;p&gt;Suitable for ages 8+ with an accompanying adult. No prior coding experience needed.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>JAMM Labs game making drop-in</title>
-        <link>https://jamm-labs.github.io/tod-events/events/game_making4/</link>
+        <link>http://localhost:1313/tod-events/events/game_making4/</link>
         <pubDate>Sat, 24 Jan 2026 13:00:00 +0000</pubDate>
         
-        <guid>https://jamm-labs.github.io/tod-events/events/game_making4/</guid>
+        <guid>http://localhost:1313/tod-events/events/game_making4/</guid>
         <description>&lt;p&gt;An informal drop-in for children, young people, and families to explore game making using simple templates, pixel art, and playful experiments.&lt;/p&gt;
 &lt;p&gt;Suitable for ages 8+ with an accompanying adult. No prior coding experience needed.&lt;/p&gt;
 </description>

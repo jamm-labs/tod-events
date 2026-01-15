@@ -1,0 +1,40 @@
+name: Issue to event markdown (PR)
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  build-event-pr:
+    if: contains(github.event.issue.labels.*.name, 'approve')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate event markdown from issue
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: node scripts/issue-to-event.js
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Add event from issue #${{ github.event.issue.number }}"
+          branch: "event/issue-${{ github.event.issue.number }}"
+          title: "Add event (from issue #${{ github.event.issue.number }})"
+          body: "This PR was generated from issue #${{ github.event.issue.number }}."
+          add-paths: |
+            content/events/*.md
