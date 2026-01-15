@@ -102,15 +102,16 @@ function extractCheckedTags(label) {
 
   return section
     .split("\n")
-    .filter(line => line.trim().startsWith("- [x]"))
+    .map(line => line.trim())
+    .filter(line => /^\- \[x\]\s+/i.test(line))
     .map(line =>
       line
-        .replace("- [x]", "")
-        .trim()
+        .replace(/^\- \[x\]\s+/i, "")
         .toLowerCase()
         .replace(/\s+/g, "-")
     );
 }
+
 
 /* ----------------------------
    Extract fields
