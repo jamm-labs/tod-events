@@ -1,8 +1,8 @@
 // scripts/issue-to-event.js
 // Convert a GitHub Issue Form submission into a Hugo event Markdown file.
-// - Expects Issue Form headings (### Event title, etc.)
-// - Normalises <img> HTML to Markdown image syntax
-// - Creates a PR via the GitHub Action workflow
+// - Robust image handling (attribute order independent)
+// - Hugo-safe datetime construction
+// - Designed for clarity over cleverness
 
 const fs = require("fs");
 const path = require("path");
@@ -20,9 +20,6 @@ function escapeRegExp(str) {
 }
 
 function extractSection(label) {
-  // Matches:
-  // ### Label
-  // content
   const re = new RegExp(
     `###\\s+${escapeRegExp(label)}\\s*\\n+([\\s\\S]*?)(?=\\n###\\s+|$)`,
     "m"
@@ -45,11 +42,16 @@ function slugify(text) {
 function normaliseImages(text) {
   if (!text) return text;
 
-  // Convert <img ... src="URL" ... alt="ALT" ...> to Markdown
-  return text.replace(
-    /<img[^>]*src="([^"]+)"[^>]*alt="([^"]*)"[^>]*\/?>/gi,
-    (_, src, alt) => `![${alt || "Event image"}](${src})`
-  );
+  return text.replace(/<img[^>]*>/gi, (imgTag) => {
+    const srcMatch = imgTag.match(/src="([^"]+)"/i);
+    if (!srcMatch) return imgTag;
+
+    const altMatch = imgTag.match(/alt="([^"]*)"/i);
+    const alt = altMatch ? altMatch[1] : "Event image";
+    const src = srcMatch[1];
+
+    return `![${alt}](${src})`;
+  });
 }
 
 /* ----------------------------
@@ -60,9 +62,9 @@ const eventTitle =
   extractSection("Event title") ||
   issueTitle.replace(/^\[event\]\s*/i, "").trim();
 
-const date = extractSection("Event date"); // YYYY-MM-DD
-const start = extractSection("Start time"); // HH:MM (optional)
-const end = extractSection("End time"); // HH:MM (optional)
+const date = extractSection("Event date");       // YYYY-MM-DD
+const start = extractSection("Start time");      // HH:MM (optional)
+const end = extractSection("End time");          // HH:MM (optional)
 const location = extractSection("Location");
 const rawDescription = extractSection("Event description");
 
@@ -70,29 +72,16 @@ const rawDescription = extractSection("Event description");
    Validate required fields
 ----------------------------- */
 
-if (!eventTitle) {
-  throw new Error("Missing Event title");
-}
-
-if (!date) {
-  throw new Error("Missing Event date (YYYY-MM-DD)");
-}
-
-if (!location) {
-  throw new Error("Missing Location");
-}
-
-if (!rawDescription) {
-  throw new Error("Missing Event description");
-}
+if (!eventTitle) throw new Error("Missing Event title");
+if (!date) throw new Error("Missing Event date (YYYY-MM-DD)");
+if (!location) throw new Error("Missing Location");
+if (!rawDescription) throw new Error("Missing Event description");
 
 /* ----------------------------
    Build datetimes
 ----------------------------- */
 
-// Default start time if omitted, keeps Hugo ordering sane
 const startTime = start ? start : "10:00";
-
 const dateStart = `${date}T${startTime}:00`;
 const dateEnd = end ? `${date}T${end}:00` : "";
 
