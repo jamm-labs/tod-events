@@ -1,0 +1,433 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tod College - ECPv6.15.14//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tod College
+X-ORIGINAL-URL:https://tlchub.org.uk
+X-WR-CALDESC:Events for Tod College
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:20250330T010000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:20251026T010000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:20260329T010000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:20261025T010000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:20270328T010000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:20271031T010000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260116T090000
+DTEND;TZID=Europe/London:20260116T170000
+DTSTAMP:20260116T154433
+CREATED:20250115T112601Z
+LAST-MODIFIED:20251203T140328Z
+UID:10020430-1768554000-1768582800@tlchub.org.uk
+SUMMARY:Banking Hub
+DESCRIPTION:Our all new Banking Hub brought to you by Cash Access UK\, provides readily available access to cash and everyday banking services at Todmorden Learning Centre. \n\n\n\nMonday – Virgin Money \n\n\n\nTuesday – Lloyds Bank \n\n\n\nWednesday – Halifax Bank \n\n\n\nThursday – Natwest Bank \n\n\n\nFriday – Barclays \n\n\n\nIf you wish to contact the Banking Hub\, please ring: 01706 393262
+URL:https://tlchub.org.uk/event/banking-hub/2026-01-16/
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2025/01/cash-access-uk-banking-hub-website.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260117T083000
+DTEND;TZID=Europe/London:20260117T120000
+DTSTAMP:20260116T154433
+CREATED:20211123T132640Z
+LAST-MODIFIED:20220819T153847Z
+UID:10014855-1768638600-1768651200@tlchub.org.uk
+SUMMARY:Todmorden Food Drop In
+DESCRIPTION:On June 1st 2013 the Todmorden Food Drop-In first opened\, and we continue to provide food for around 80 to 100 people each week. We are open at Todmorden College from 10 a.m. – 12 noon each Saturday. \nOur aim is to: \n1) provide 3 days emergency food aid for people in crisis who cannot afford to buy food \n2) to provide hot drinks and food at the time we are open \n3) to collect donations of food\, other items and money from individuals\, charities\, and businesses \n4) to offer advice and support\, including signposting to other agencies who can help \n5) to gather (anonymously) information about the people using the Food Drop-In so we can campaign and highlight the issues of poverty and deprivation in the area. \nIf you are struggling to feed yourself or your family\, come to the Food Drop-in.
+URL:https://tlchub.org.uk/event/todmorden-food-drop-in/2026-01-17/
+LOCATION:Inchfield\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+CATEGORIES:Food
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2021/09/Food-Drop-In-e1636644521345.jpg
+ORGANIZER;CN="Judith Clayton":MAILTO:judith.clayton@3-c.coop
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260117T090000
+DTEND;TZID=Europe/London:20260117T120000
+DTSTAMP:20260116T154433
+CREATED:20211123T135547Z
+LAST-MODIFIED:20250829T140342Z
+UID:10014343-1768640400-1768651200@tlchub.org.uk
+SUMMARY:Tool Library & General Drop In
+DESCRIPTION:Todmorden Makery is a member-run space where volunteers help people do the following activities in drop-in and workshop sessions.\n• Repair – repair café activities – bikes\, electronic appliances\, anything that can be glued\, knife sharpening & textile repairs\n• Tool library – weekly rental of power tools such mitre saws\, cordless drills and garden strimmers\n• Art and Craft Making – woodworking\, textiles\, low-cost crafting materials\n• Refurbishing Computers – for distribution to household that need them (Tech Tastic)\n• Software training – code club\, art and tech workshops for family\, kids and adults\nSee our timetable for drop in times.\nhttps://todmordenmakery.org.uk/events-calendar/
+URL:https://tlchub.org.uk/event/tool-library/2026-01-17/
+LOCATION:Three Nooks\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2021/09/Tod-Making-Space-Graphics.png
+ORGANIZER;CN="Mick Chesterman":MAILTO:todmordenmakery@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260117T100000
+DTEND;TZID=Europe/London:20260117T120000
+DTSTAMP:20260116T154433
+CREATED:20211123T134011Z
+LAST-MODIFIED:20230107T124902Z
+UID:10014599-1768644000-1768651200@tlchub.org.uk
+SUMMARY:Advice Desk
+DESCRIPTION:On June 1st 2013 the Todmorden Food Drop-In first opened\, and we continue to provide food for around 80 to 100 people each week. We are open at Todmorden College from 10 a.m. – 12 noon each Saturday. \nOur aim is to: \n1) provide 3 days emergency food aid for people in crisis who cannot afford to buy food \n2) to provide hot drinks and food at the time we are open \n3) to collect donations of food\, other items and money from individuals\, charities\, and businesses \n4) to offer advice and support\, including signposting to other agencies who can help \n5) to gather (anonymously) information about the people using the Food Drop-In so we can campaign and highlight the issues of poverty and deprivation in the area. \nIf you are struggling to feed yourself or your family\, come to the Food Drop-in.
+URL:https://tlchub.org.uk/event/advice-desk/2026-01-17/
+LOCATION:Gaddings\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2021/09/Food-Drop-In-e1636644521345.jpg
+ORGANIZER;CN="Judith Clayton":MAILTO:judith.clayton@3-c.coop
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260117T113000
+DTEND;TZID=Europe/London:20260117T130000
+DTSTAMP:20260116T154433
+CREATED:20230419T124853Z
+LAST-MODIFIED:20230419T124855Z
+UID:10012500-1768649400-1768654800@tlchub.org.uk
+SUMMARY:Weekend Judo
+DESCRIPTION:The focus of the club is teaching Judo to the younger generations as well as self-defence for adults. The club has a very friendly and welcoming atmosphere\, students from all skills levels are welcome. \n\n\n\nBook in by contacting us by email or through Facebook. \n\n\n\nThe club’s email is: todmordenjudoclub@gmail.com\, Our FB page is: https://www.facebook.com/TodmordenJudoClub
+URL:https://tlchub.org.uk/event/weekend-judo/2026-01-17/
+LOCATION:The Gym\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260118T093000
+DTEND;TZID=Europe/London:20260118T133000
+DTSTAMP:20260116T154433
+CREATED:20231013T105401Z
+LAST-MODIFIED:20231013T105403Z
+UID:10012817-1768728600-1768743000@tlchub.org.uk
+SUMMARY:Incredible Edible - Gardening Sunday
+DESCRIPTION:Incredible Edible Todmorden Gardening around Tod\, with a delicious free lunch at 12 noon.
+URL:https://tlchub.org.uk/event/incredible-edible-gardening-sunday-3/2026-01-18/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260118T100000
+DTEND;TZID=Europe/London:20260118T140000
+DTSTAMP:20260116T154433
+CREATED:20251203T114616Z
+LAST-MODIFIED:20251203T115500Z
+UID:10025627-1768730400-1768744800@tlchub.org.uk
+SUMMARY:Woodshop induction - January - part 2
+DESCRIPTION:The second of a two part course to learn to use the tools and equipment in the College’s new Woodshop. \n\n\n\nLearn how to use a Router Table\, Planer/Thicknesser\, Sander and Drill Press in the Woodshop at Tod College. Attendees will learn how to operate the machines in a safe manner. Maximum number of 4 attendees so everyone gets hands on experience. This course is particularly suitable for confident beginners and hobbyist woodworkers. The course is mandatory for those who wish to use these machines in the Woodshop at future open sessions.
+URL:https://tlchub.org.uk/event/woodshop-induction-january-part-2/
+LOCATION:The Workshop\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+CATEGORIES:Art and crafts,Climate and sustainability,Repair
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260119T090000
+DTEND;TZID=Europe/London:20260119T170000
+DTSTAMP:20260116T154433
+CREATED:20250115T112601Z
+LAST-MODIFIED:20251203T140328Z
+UID:10020431-1768813200-1768842000@tlchub.org.uk
+SUMMARY:Banking Hub
+DESCRIPTION:Our all new Banking Hub brought to you by Cash Access UK\, provides readily available access to cash and everyday banking services at Todmorden Learning Centre. \n\n\n\nMonday – Virgin Money \n\n\n\nTuesday – Lloyds Bank \n\n\n\nWednesday – Halifax Bank \n\n\n\nThursday – Natwest Bank \n\n\n\nFriday – Barclays \n\n\n\nIf you wish to contact the Banking Hub\, please ring: 01706 393262
+URL:https://tlchub.org.uk/event/banking-hub/2026-01-19/
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2025/01/cash-access-uk-banking-hub-website.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260119T163000
+DTEND;TZID=Europe/London:20260119T200000
+DTSTAMP:20260116T154433
+CREATED:20230922T103137Z
+LAST-MODIFIED:20240202T115722Z
+UID:10018734-1768840200-1768852800@tlchub.org.uk
+SUMMARY:Kixx Football Class
+DESCRIPTION:Football Classes provided by Kixx and taught by Cameron Timberley \n\n\n\nFor more information please email: camerontimberley@kixx.org.uk
+URL:https://tlchub.org.uk/event/football-classes/2026-01-19/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260119T180000
+DTEND;TZID=Europe/London:20260119T200000
+DTSTAMP:20260116T154433
+CREATED:20211123T135705Z
+LAST-MODIFIED:20220824T090146Z
+UID:10014087-1768845600-1768852800@tlchub.org.uk
+SUMMARY:Bike Repair Drop In
+DESCRIPTION:Todmorden Makery is a member-run space where volunteers help people do the following activities in drop-in and workshop sessions.\n• Repair – repair cafe activities – bikes\, electronic appliances\, anything that can be glued\, knife sharpening & textile repairs\n• Tool library – weekly rental of power tools such mitre saws\, cordless drills and garden strimmers\n• Art and Craft Making – woodworking\, textiles\, low-cost crafting materials\n• Refurbishing Computers – for distribution to household that need them (Tech Tastic)\n• Software training – code club\, art and tech workshops for family\, kids and adults\nSee our timetable for drop in times.\nhttps://todmordenmakery.org.uk/events-calendar/
+URL:https://tlchub.org.uk/event/bike-repair-drop-in/2026-01-19/
+LOCATION:Three Nooks\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+CATEGORIES:Art and crafts
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2021/09/Tod-Making-Space-Graphics.png
+ORGANIZER;CN="Mick Chesterman":MAILTO:todmordenmakery@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260119T190000
+DTEND;TZID=Europe/London:20260119T203000
+DTSTAMP:20260116T154433
+CREATED:20211123T131508Z
+LAST-MODIFIED:20211130T142757Z
+UID:10015326-1768849200-1768854600@tlchub.org.uk
+SUMMARY:Karate
+DESCRIPTION:
+URL:https://tlchub.org.uk/event/karate/2026-01-19/
+LOCATION:The Gym\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+CATEGORIES:Sport and exercise
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2021/11/Karate-1.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260119T190000
+DTEND;TZID=Europe/London:20260119T210000
+DTSTAMP:20260116T154433
+CREATED:20230829T123729Z
+LAST-MODIFIED:20240822T143518Z
+UID:10018233-1768849200-1768856400@tlchub.org.uk
+SUMMARY:Andys Man Club
+DESCRIPTION:Going through a storm or just been through one? Andys Man Club is a group for men to talk to each and help each other through the storm\, don’t be afraid to come along.
+URL:https://tlchub.org.uk/event/andys-man-club/2026-01-19/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260119T193000
+DTEND;TZID=Europe/London:20260119T210000
+DTSTAMP:20260116T154433
+CREATED:20250829T125923Z
+LAST-MODIFIED:20250829T125927Z
+UID:10022074-1768851000-1768856400@tlchub.org.uk
+SUMMARY:Pickleball
+DESCRIPTION:Each session is £5\, please contact Angela Rezki\, on 07709881383 or angela.18@hotmail.co.uk\, before attending.
+URL:https://tlchub.org.uk/event/pickleball-2/2026-01-19/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260120T090000
+DTEND;TZID=Europe/London:20260120T170000
+DTSTAMP:20260116T154433
+CREATED:20250115T112601Z
+LAST-MODIFIED:20251203T140328Z
+UID:10020432-1768899600-1768928400@tlchub.org.uk
+SUMMARY:Banking Hub
+DESCRIPTION:Our all new Banking Hub brought to you by Cash Access UK\, provides readily available access to cash and everyday banking services at Todmorden Learning Centre. \n\n\n\nMonday – Virgin Money \n\n\n\nTuesday – Lloyds Bank \n\n\n\nWednesday – Halifax Bank \n\n\n\nThursday – Natwest Bank \n\n\n\nFriday – Barclays \n\n\n\nIf you wish to contact the Banking Hub\, please ring: 01706 393262
+URL:https://tlchub.org.uk/event/banking-hub/2026-01-20/
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2025/01/cash-access-uk-banking-hub-website.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260120T100000
+DTEND;TZID=Europe/London:20260120T120000
+DTSTAMP:20260116T154433
+CREATED:20220715T140200Z
+LAST-MODIFIED:20221006T173647Z
+UID:10012238-1768903200-1768910400@tlchub.org.uk
+SUMMARY:Table Tennis - Open Session
+DESCRIPTION:Table Tennis for anyone. \nBats and balls available. \n£5 per session. \nContact Ginny Harris 07976577716
+URL:https://tlchub.org.uk/event/table-tennis-open-session-4/2026-01-20/
+LOCATION:The Hall\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+CATEGORIES:Sport and exercise
+ORGANIZER;CN="Ginny Harris":MAILTO:ginny.harris10@btinternet.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260120T193000
+DTEND;TZID=Europe/London:20260120T203000
+DTSTAMP:20260116T154433
+CREATED:20250829T131121Z
+LAST-MODIFIED:20250829T131349Z
+UID:10022997-1768937400-1768941000@tlchub.org.uk
+SUMMARY:Pick Up Netball
+DESCRIPTION:Turn up and Play netball – beginners and experienced people all welcome\, come by yourself\, or bring your team. It’s very informal – we do a bit of training and then play small 5-a-side games – no commitment necessary. No age limit (at either end!).  £2 if lots of people turn up\, £3 if not. It’s about having fun and keeping fit. \n\n\n\nContact Catherine at troubleatmill@riseup.net or Emma on 07938 261005
+URL:https://tlchub.org.uk/event/pick-up-netball-2/2026-01-20/
+LOCATION:The Gym\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+CATEGORIES:Sport and exercise
+ORGANIZER;CN="Catherine Bann":MAILTO:secretary@tlchub.org.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260120T193000
+DTEND;TZID=Europe/London:20260120T210000
+DTSTAMP:20260116T154433
+CREATED:20240213T103054Z
+LAST-MODIFIED:20240213T103936Z
+UID:10018889-1768937400-1768942800@tlchub.org.uk
+SUMMARY:Rollerskating
+DESCRIPTION:A friendly and inviting space for adults of all ages and levels\, beginner to pro\, to skate. Come join us at a £7 drop in session! Bring your own skates – quads or inlines. \n\n\n\nOption to block book at the beginning of every month for a cheaper rate. \n\n\n\nFor more information WhatsApp Gina Holmes – 07970 872401
+URL:https://tlchub.org.uk/event/rollerskating/2026-01-20/
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2024/02/Tod-Rollers-Logo-002.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260121T090000
+DTEND;TZID=Europe/London:20260121T170000
+DTSTAMP:20260116T154433
+CREATED:20250115T112601Z
+LAST-MODIFIED:20251203T140328Z
+UID:10020433-1768986000-1769014800@tlchub.org.uk
+SUMMARY:Banking Hub
+DESCRIPTION:Our all new Banking Hub brought to you by Cash Access UK\, provides readily available access to cash and everyday banking services at Todmorden Learning Centre. \n\n\n\nMonday – Virgin Money \n\n\n\nTuesday – Lloyds Bank \n\n\n\nWednesday – Halifax Bank \n\n\n\nThursday – Natwest Bank \n\n\n\nFriday – Barclays \n\n\n\nIf you wish to contact the Banking Hub\, please ring: 01706 393262
+URL:https://tlchub.org.uk/event/banking-hub/2026-01-21/
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2025/01/cash-access-uk-banking-hub-website.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260121T130000
+DTEND;TZID=Europe/London:20260121T150000
+DTSTAMP:20260116T154433
+CREATED:20220420T114930Z
+LAST-MODIFIED:20220420T114930Z
+UID:10011770-1769000400-1769007600@tlchub.org.uk
+SUMMARY:Makery - Repair Re-Wear Sessions
+DESCRIPTION:This session is a chance to use the sewing and textiles equipment at the Makery. \nIt is also a way to get help with ongoing projects or start new ones. \nHere are some of the things we may be able to help with: \n\nIf you want help doing alterations or repair of clothes and kit.\nWe can help you get set up on sewing machines and cut out replacement fabric.\nWe take on community projects involving textiles. If you’re not sure what to do\, you could chip in to one of these.\nCome and ask about other projects too\, like upholstery\, curtains etc. We can even repair tents – just come and ask.
+URL:https://tlchub.org.uk/event/makery-repair-re-wear-sessions/2026-01-21/
+LOCATION:Three Nooks\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2022/04/Tod-Making-Space-Graphics.png
+ORGANIZER;CN="Mick Chesterman":MAILTO:todmordenmakery@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260121T180000
+DTEND;TZID=Europe/London:20260121T200000
+DTSTAMP:20260116T154433
+CREATED:20220420T115330Z
+LAST-MODIFIED:20250829T133907Z
+UID:10012008-1769018400-1769025600@tlchub.org.uk
+SUMMARY:Makery - Electricals & General Drop In
+DESCRIPTION:The Makery is a volunteer-run community workshop. We have drop-ins where we can help you on your making and fixing projects. \nFor more info email todmordenmakery@gmail.com
+URL:https://tlchub.org.uk/event/makery-electricals-etc/2026-01-21/
+LOCATION:Three Nooks\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2022/04/Tod-Making-Space-Graphics.png
+ORGANIZER;CN="Mick Chesterman":MAILTO:todmordenmakery@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260121T183000
+DTEND;TZID=Europe/London:20260121T193000
+DTSTAMP:20260116T154433
+CREATED:20240723T110812Z
+LAST-MODIFIED:20240723T111744Z
+UID:10013094-1769020200-1769023800@tlchub.org.uk
+SUMMARY:Walking Netball - Todmorden Tornados
+DESCRIPTION:Walking netball\, a great way to be sociable with fun activities and exercise! \n\n\n\nTo book please message 07977007190 and for more information please visit Todmorden Tornados on Facebook. \n\n\n\n£3.50 per session by bank transfer (usually paid in 4 week blocks)
+URL:https://tlchub.org.uk/event/walking-netball-todmorden-tornados/2026-01-21/
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2024/07/IMG_3156-002.jpeg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260121T184500
+DTEND;TZID=Europe/London:20260121T211500
+DTSTAMP:20260116T154433
+CREATED:20211123T145152Z
+LAST-MODIFIED:20211203T101504Z
+UID:10016017-1769021100-1769030100@tlchub.org.uk
+SUMMARY:Life Drawing
+DESCRIPTION:Life drawing Wednesday evening 7-9 and Thursday morning 10-12. \nA self directed life drawing class\, working from a variety of models. Each class consists of both short and long poses\, with a tea break in the middle. Drawing boards and easels available\, but otherwise please bring your own materials. Each class is £10 for two hours. \nThere is space on both sessions\, please book by contacting Sophie Cleaver on 07950895196 or sophie_cleaver@hotmail.co.uk
+URL:https://tlchub.org.uk/event/life-drawing/2026-01-21/
+LOCATION:Flower Scar\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+CATEGORIES:Art and crafts
+ORGANIZER;CN="Sophie Cleaver":MAILTO:sophie_cleaver@hotmail.co.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260121T190000
+DTEND;TZID=Europe/London:20260121T203000
+DTSTAMP:20260116T154433
+CREATED:20211123T131508Z
+LAST-MODIFIED:20211130T142757Z
+UID:10015327-1769022000-1769027400@tlchub.org.uk
+SUMMARY:Karate
+DESCRIPTION:
+URL:https://tlchub.org.uk/event/karate/2026-01-21/
+LOCATION:The Gym\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+CATEGORIES:Sport and exercise
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2021/11/Karate-1.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260121T190000
+DTEND;TZID=Europe/London:20260121T203000
+DTSTAMP:20260116T154433
+CREATED:20220322T101506Z
+LAST-MODIFIED:20250829T133154Z
+UID:10016456-1769022000-1769027400@tlchub.org.uk
+SUMMARY:Yoga Session - Debra Bartholomew
+DESCRIPTION:
+URL:https://tlchub.org.uk/event/yoga-session-debra-bartholomew/2026-01-21/
+LOCATION:Bridestones\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+ORGANIZER;CN="Debra Bartholomew":MAILTO:debbieyoga@yahoo.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260122T090000
+DTEND;TZID=Europe/London:20260122T170000
+DTSTAMP:20260116T154433
+CREATED:20250115T112601Z
+LAST-MODIFIED:20251203T140328Z
+UID:10020434-1769072400-1769101200@tlchub.org.uk
+SUMMARY:Banking Hub
+DESCRIPTION:Our all new Banking Hub brought to you by Cash Access UK\, provides readily available access to cash and everyday banking services at Todmorden Learning Centre. \n\n\n\nMonday – Virgin Money \n\n\n\nTuesday – Lloyds Bank \n\n\n\nWednesday – Halifax Bank \n\n\n\nThursday – Natwest Bank \n\n\n\nFriday – Barclays \n\n\n\nIf you wish to contact the Banking Hub\, please ring: 01706 393262
+URL:https://tlchub.org.uk/event/banking-hub/2026-01-22/
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2025/01/cash-access-uk-banking-hub-website.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260122T094500
+DTEND;TZID=Europe/London:20260122T121500
+DTSTAMP:20260116T154433
+CREATED:20211123T145346Z
+LAST-MODIFIED:20240208T121258Z
+UID:10015760-1769075100-1769084100@tlchub.org.uk
+SUMMARY:Life Drawing
+DESCRIPTION:Life drawing Wednesday evening 7-9 and Thursday morning 10-12.\n\nA self directed life drawing class\, working from a variety of models. Each class consists of both short and long poses\, with a tea break in the middle. Drawing boards and easels available\, but otherwise please bring your own materials. Each class is £10 for two hours.\n\nThere is space on both sessions\, please book by contacting Sophie Cleaver on 07950895196 or sophie_cleaver@hotmail.co.uk
+URL:https://tlchub.org.uk/event/life-drawing-2/2026-01-22/
+LOCATION:Flower Scar\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+ORGANIZER;CN="Sophie Cleaver":MAILTO:sophie_cleaver@hotmail.co.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260122T101500
+DTEND;TZID=Europe/London:20260122T121500
+DTSTAMP:20260116T154433
+CREATED:20240828T100450Z
+LAST-MODIFIED:20241003T100502Z
+UID:10019270-1769076900-1769084100@tlchub.org.uk
+SUMMARY:Sing and Breathe
+DESCRIPTION:Singing for anyone affected by a long term lung condition from asthma to COPD. Supported by Asthma + Lung UK
+URL:https://tlchub.org.uk/event/sing-and-breathe/2026-01-22/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260122T130000
+DTEND;TZID=Europe/London:20260122T160000
+DTSTAMP:20260116T154433
+CREATED:20241003T101328Z
+LAST-MODIFIED:20250902T134552Z
+UID:10013438-1769086800-1769097600@tlchub.org.uk
+SUMMARY:Functional Skills Maths - Calderdale Adult Learning
+DESCRIPTION:Qualifications in Maths from Entry Level through to Level 2. Develop your Maths skills with tasks adapted for different learning styles and abilities.
+URL:https://tlchub.org.uk/event/functional-skills-maths-calderdale-adult-learning-2/2026-01-22/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260122T140000
+DTEND;TZID=Europe/London:20260122T160000
+DTSTAMP:20260116T154433
+CREATED:20241104T200634Z
+LAST-MODIFIED:20241104T200634Z
+UID:10017397-1769090400-1769097600@tlchub.org.uk
+SUMMARY:U3A Creative Writing
+DESCRIPTION:This course  is available only to members of U3A Todmorden – for details see https://u3atod.org.uk/
+URL:https://tlchub.org.uk/event/u3a-creative-writing-2-2024-09-12/2026-01-22/
+LOCATION:Hawkstones\, Tod College\, Burnley Road\, Todmorden\, West Yorkshire\, OL14 7BX\, United Kingdom
+CATEGORIES:Literature and history
+ORGANIZER;CN="Barbara Griffiths":MAILTO:barbiegriff@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260122T170000
+DTEND;TZID=Europe/London:20260122T200000
+DTSTAMP:20260116T154433
+CREATED:20241003T100118Z
+LAST-MODIFIED:20251107T125608Z
+UID:10013331-1769101200-1769112000@tlchub.org.uk
+SUMMARY:Pilates - Thursday
+DESCRIPTION:Beginners and Improvers. Clinical Pilates – perfect for anyone with injuries or back pain as a way to get stronger and back to activities. £50 for a block of 4 classes \n\n\n\nThis class has three sessions: 17:00 – 18:00\, 18:00 – 19:00 and 19:00 – 20:00 \n\n\n\nBook in advance – Email: Lynne@physiotherapies.co.uk Phone: 01706 819464
+URL:https://tlchub.org.uk/event/pilates-thursday/2026-01-22/
+END:VEVENT
+END:VCALENDAR
