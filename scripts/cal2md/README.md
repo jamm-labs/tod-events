@@ -2,6 +2,13 @@
 
 Convert iCalendar (.ics) files to Hugo markdown posts.
 
+## Installation
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
 ## Usage
 
 ```bash
