@@ -54,6 +54,8 @@ git submodule updates
 
 https://www.geeksforgeeks.org/git/how-to-use-the-git-submodule-init-and-update-command/
 
+hugo server --buildFuture
+
 ---
 
 ## 5. Creating the events section
