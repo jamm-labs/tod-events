@@ -49,41 +49,10 @@ Check it works:
     hugo version
 
 ---
+git submodule init
+git submodule updates
 
-## 3. Creating the Hugo site
-
-The site was created with:
-
-    hugo new site tod-events
-    cd tod-events
-
-This creates the basic Hugo directory structure:
-
-    content/
-    layouts/
-    static/
-    themes/
-    hugo.toml
-
----
-
-## 4. Adding the Stack theme
-
-The site uses the **Stack theme** as a starting point.
-
-Theme repository:
-https://github.com/CaiJimmy/hugo-theme-stack
-
-Add it as a submodule:
-
-    git submodule add https://github.com/CaiJimmy/hugo-theme-stack themes/stack
-
-Enable it in `hugo.toml`:
-
-    theme = "stack"
-
-Theme documentation:
-https://stack.jimmycai.com/
+https://www.geeksforgeeks.org/git/how-to-use-the-git-submodule-init-and-update-command/
 
 ---
 
