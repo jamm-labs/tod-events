@@ -14,7 +14,6 @@ It is written for people who are **new to Hugo**.
 Here are some notes from our meeting on 12th Jan 2026 - 
 http://pad.riseup.net/p/tod-events-keep
 
----
 
 ## 1. What this project is (and isn’t)
 
@@ -30,35 +29,33 @@ This makes it:
 - easy to version control
 - resistant to spam and form abuse
 
----
-
 ## 2. Project setup
 
 ### Requirements
 
 You need:
-- Hugo (extended version recommended)
+- [Hugo](https://gohugo.io/installation/) (extended version recommended)
 - Git
 - A GitHub account (for Pages and Issues)
 
-Install Hugo:
-https://gohugo.io/installation/
+### Steps to build site
 
-Check it works:
+Check a recent version of hugo is installed and working. 
+
+Older versions may not build correctly, the site has be tested on `>0.150`:
 
     hugo version
 
----
-git submodule init
-git submodule updates
+Add the theme as a [git submodule](https://www.geeksforgeeks.org/git/how-to-use-the-git-submodule-init-and-update-command/).
 
-https://www.geeksforgeeks.org/git/how-to-use-the-git-submodule-init-and-update-command/
+    git submodule init
+    git submodule updates
 
-hugo server --buildFuture
+Start the server to view the site
 
----
+    hugo server --buildFuture
 
-## 5. Creating the events section
+## 3. Creating the events section
 
 Hugo treats folders under `content/` as **sections**.
 
@@ -79,9 +76,7 @@ Example `_index.md`:
 
 This controls how `/events/` is rendered.
 
----
-
-## 6. Adding events (Markdown files)
+## 4. Adding events (Markdown files)
 
 Each event is a Markdown file inside `content/events/`.
 
@@ -108,9 +103,7 @@ Example:
 
 This keeps sorting reliable.
 
----
-
-## 7. Making events behave like a calendar
+## 5. Making events behave like a calendar
 
 By default, Hugo treats content like blog posts.
 We override that behaviour.
@@ -125,8 +118,6 @@ In the page template:
 
 This hides past events automatically.
 
----
-
 ### Ordering by date
 
 After filtering, we explicitly order:
@@ -136,8 +127,6 @@ After filtering, we explicitly order:
 This ensures:
 - earliest upcoming event appears first
 - ordering stays correct as events are added
-
----
 
 ### Grouping by day
 
@@ -149,9 +138,7 @@ Note:
 - Hugo groups descending by default
 - "asc" is required for calendar-style ordering
 
----
-
-## 8. Using partials to keep things simple
+## 6. Using partials to keep things simple
 
 Event rendering lives in a partial:
 
@@ -163,9 +150,7 @@ Key rule:
 
 This avoids Hugo scoping issues.
 
----
-
-## 9. Homepage vs events page
+## 7. Homepage vs events page
 
 During development, the homepage mirrors the events list.
 
@@ -175,9 +160,7 @@ Longer term:
 
 This keeps responsibilities clear.
 
----
-
-## 10. GitHub Issues as an event submission form (experimental)
+## 8. GitHub Issues as an event submission form (experimental)
 
 Instead of a web form, we are exploring **GitHub Issues** as input.
 
@@ -195,9 +178,7 @@ The idea:
 GitHub Issue templates:
 https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues/creating-issue-templates-for-your-repository
 
----
-
-## 11. Useful Hugo documentation
+## 9. Useful Hugo documentation
 
 Hugo getting started:
 https://gohugo.io/getting-started/
@@ -214,9 +195,7 @@ https://gohugo.io/templates/
 Dates and time formatting:
 https://gohugo.io/functions/time/
 
----
-
-## 12. Why this approach
+## 10. Why this approach
 
 This setup aims to be:
 - understandable by non-specialists
@@ -227,9 +206,7 @@ This setup aims to be:
 
 The guiding principle is **clarity over cleverness**.
 
----
-
-## 13. Next steps
+## 11. Next steps
 
 Planned improvements include:
 - visual refinement of the schedule
