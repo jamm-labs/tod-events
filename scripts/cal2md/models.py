@@ -30,13 +30,13 @@ class Event:
         """Prepare a single event as a hugo markdown post"""
         meta_data = "\n".join(
             [
-                self.summary,
+                f"title: {self.summary}",
                 f"date: {self.start.isoformat()}",
                 f"end: {self.end.isoformat()}",
             ]
         )
 
-        front_matter = f"---\n{meta_data}---\n\n"
+        front_matter = f"---\n{meta_data}\n---\n\n"
 
         if self.location:
             meta_data += f"\nlocation: {self.location}"

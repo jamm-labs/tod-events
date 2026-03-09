@@ -1,0 +1,487 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tod College - ECPv6.15.17//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tod College
+X-ORIGINAL-URL:https://tlchub.org.uk
+X-WR-CALDESC:Events for Tod College
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:20250330T010000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:20251026T010000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:20260329T010000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:20261025T010000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:20270328T010000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:20271031T010000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260309T090000
+DTEND;TZID=Europe/London:20260309T170000
+DTSTAMP:20260309T135111
+CREATED:20260213T151841Z
+LAST-MODIFIED:20260213T151929Z
+UID:10026050-1773046800-1773075600@tlchub.org.uk
+SUMMARY:Banking Hub
+DESCRIPTION:Our Banking Hub\, provided by Cash Access\, operates Monday – Friday. The Banking Hub has a counter where you can access cash services whenever the hub is open and whoever you bank with: \n\n\n\n\npay in cash (notes and coins) and cheques\n\n\n\nwithdraw cash (notes and coins)\n\n\n\ncheck your balance\n\n\n\npay utility bills\n\n\n\ntop up your gas and electricity\n\n\n\naccess change-giving services (for registered businesses) \n\n\n\n\nYou can also talk to a community banker from your bank on the day your bank is in the hub. There is a private space where you can talk face-to-face about more complicated banking enquiries like payments and transfers\, managing your account\, and how to use online banking. You can view the services available from community bankers from the Community Banker Services  page on the Cash Access website. \n\n\n\n\nMonday – Virgin Money\n\n\n\nTuesday – Lloyds\n\n\n\nWednesday – Halifax\n\n\n\nThursday – Natwest\n\n\n\nFriday – Barclays
+URL:https://tlchub.org.uk/event/banking-hub-2/2026-03-09/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Banking
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/cash-access-uk-banking-hub-website.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260309T174000
+DTEND;TZID=Europe/London:20260309T182000
+DTSTAMP:20260309T135111
+CREATED:20260128T110721Z
+LAST-MODIFIED:20260213T151526Z
+UID:10032626-1773078000-1773080400@tlchub.org.uk
+SUMMARY:Kixx Football - For children aged 3-8
+DESCRIPTION:Kixx is a children’s football academy\, who provide a high-energy\, fun\, and imaginative introduction to physical activity\, all through the power of football. \n\n\n\nKixx sessions are also a brilliant way for children to build friendships and grow in confidence. Every class is carefully designed for both boys and girls aged 18 months to 10 years\, ensuring the activities are age-appropriate\, inclusive\, and engaging. \n\n\n\nThe Kixx curriculum focuses on developing both physical skills and social skills — helping every child learn\, move\, and thrive in a supportive environment. \n\n\n\nOur vision is simple: to inspire every child to be better through football. \n\n\n\n\n\n\n\nOr you can directly contact Coach Cam – camerontimberley@kixx.org.uk
+URL:https://tlchub.org.uk/event/kixx-football-for-children-aged-3-8/2026-03-09/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Sport and exercise
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/kixx.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260309T190000
+DTEND;TZID=Europe/London:20260309T203000
+DTSTAMP:20260309T135111
+CREATED:20260129T181912Z
+LAST-MODIFIED:20260129T181915Z
+UID:10034282-1773082800-1773088200@tlchub.org.uk
+SUMMARY:Todmorden Karate Club
+DESCRIPTION:Traditional Shotokan Karate\, Taught by 7th Dan Black Belt \, Bob Smith.
+URL:https://tlchub.org.uk/event/todmorden-karate-club/2026-03-09/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/Karate.png
+ORGANIZER;CN="Bob Smith":MAILTO:todmordenshotokankarateclub@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260309T190000
+DTEND;TZID=Europe/London:20260309T210000
+DTSTAMP:20260309T135111
+CREATED:20260127T174059Z
+LAST-MODIFIED:20260127T174154Z
+UID:10027732-1773082800-1773090000@tlchub.org.uk
+SUMMARY:Andys Man Club
+DESCRIPTION:Andys Man Club offer a free to attend peer-to-peer support group every Monday\, except bank holidays. In these groups\, men can open up about the storms affecting their lives in a safe\, judgement-free and non-clinical environment. These clubs are designed to be free of pressure\, there is no obligation for men to speak\, they can simply listen if they wish. We know it can be daunting contemplating coming to a club with people you don’t know\, but don’t be afraid to come along and see for yourself. It might be the best decision you make. Please remember this group is 18+ \n\n\n\nANDYSMANCLUB are a men’s suicide prevention charity that aims to end the stigma surrounding men’s mental health and help men through the power of conversation. #ITSOKAYTOTALK
+URL:https://tlchub.org.uk/event/andys-man-club/2026-03-09/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Support groups and services
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/andys-man-club-logo.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260309T193000
+DTEND;TZID=Europe/London:20260309T210000
+DTSTAMP:20260309T135111
+CREATED:20260127T175638Z
+LAST-MODIFIED:20260203T144008Z
+UID:10027997-1773084600-1773090000@tlchub.org.uk
+SUMMARY:Pickleball
+DESCRIPTION:Weekly sessions of Pickleball. Please contact Angela before attending. (This class is currently full\, if any spots become available\, please contact Angela and she will let you know).
+URL:https://tlchub.org.uk/event/pickleball/2026-03-09/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Sport and exercise
+ORGANIZER;CN="Angela Rizki%3A":MAILTO:angela.18@hotmail.co.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260310T080000
+DTEND;TZID=Europe/London:20260310T170000
+DTSTAMP:20260309T135111
+CREATED:20260128T124809Z
+LAST-MODIFIED:20260128T124831Z
+UID:10032884-1773129600-1773162000@tlchub.org.uk
+SUMMARY:Upper Valley Prostate Cancer Support Group
+DESCRIPTION:A support group for those with a diagnosis of prostate cancer\, whether recently diagnosed and wondering what happens next or those further through their cancer journey. \n\n\n\nThe group is LGBTQ+ inclusive and anyone with a diagnosis of prostate cancer is welcome to attend. \n\n\n\nFor more information or to register your interest\, please contact Dave. You can also visit the website.
+URL:https://tlchub.org.uk/event/upper-valley-prostate-cancer-support-group/2026-03-10/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Support groups and services
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/logo-draft-5.png
+ORGANIZER;CN="Dave Wardell":MAILTO:info@uvpcsg.org.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260310T080000
+DTEND;TZID=Europe/London:20260310T170000
+DTSTAMP:20260309T135111
+CREATED:20260203T143408Z
+LAST-MODIFIED:20260203T143411Z
+UID:10035399-1773129600-1773162000@tlchub.org.uk
+SUMMARY:Table Tennis - Open Session
+DESCRIPTION:Table Tennis every Tuesday for anyone! Bats and balls available.
+URL:https://tlchub.org.uk/event/table-tennis-open-session/2026-03-10/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Sport and exercise
+ORGANIZER;CN="Ginny Harris":MAILTO:ginny.harris10@btinternet.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260310T090000
+DTEND;TZID=Europe/London:20260310T170000
+DTSTAMP:20260309T135111
+CREATED:20260213T151841Z
+LAST-MODIFIED:20260213T151929Z
+UID:10026051-1773133200-1773162000@tlchub.org.uk
+SUMMARY:Banking Hub
+DESCRIPTION:Our Banking Hub\, provided by Cash Access\, operates Monday – Friday. The Banking Hub has a counter where you can access cash services whenever the hub is open and whoever you bank with: \n\n\n\n\npay in cash (notes and coins) and cheques\n\n\n\nwithdraw cash (notes and coins)\n\n\n\ncheck your balance\n\n\n\npay utility bills\n\n\n\ntop up your gas and electricity\n\n\n\naccess change-giving services (for registered businesses) \n\n\n\n\nYou can also talk to a community banker from your bank on the day your bank is in the hub. There is a private space where you can talk face-to-face about more complicated banking enquiries like payments and transfers\, managing your account\, and how to use online banking. You can view the services available from community bankers from the Community Banker Services  page on the Cash Access website. \n\n\n\n\nMonday – Virgin Money\n\n\n\nTuesday – Lloyds\n\n\n\nWednesday – Halifax\n\n\n\nThursday – Natwest\n\n\n\nFriday – Barclays
+URL:https://tlchub.org.uk/event/banking-hub-2/2026-03-10/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Banking
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/cash-access-uk-banking-hub-website.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260310T093000
+DTEND;TZID=Europe/London:20260310T163000
+DTSTAMP:20260309T135111
+CREATED:20260210T155715Z
+LAST-MODIFIED:20260210T155757Z
+UID:10039363-1773135000-1773160200@tlchub.org.uk
+SUMMARY:Emergency First Aid at Work
+DESCRIPTION:The Emergency First Aid At Work course covers worst case scenarios and some of the more common minor injuries. It is aimed at those working in lower risk areas such as offices and shops. \n\n\n\nYou will need to attend a full 7 hours of trining (breaks included) \n\n\n\nFirst Aid Training at Splat is relaxed and enjoyable. We aim to help you learn and support you to get what you need from the day. There are some practical and some multiple-choice assessments but our job is to ensure you have everything you need to pass these easily. \n\n\n\nPlease note that First Aid can be quite physical\, you will need to be able to kneel on the floor to perform CPR and Recovery Position. Please wear comfortable clothing you can move around in\, and\, if possible\, please let us know ahead of time if there is anything we can do to help support you and your enjoyment of the day.
+URL:https://tlchub.org.uk/event/emergency-first-aid-at-work-2/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:First Aid,Learning
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/02/Splat-Logo-large-1024x576-1.png
+ORGANIZER;CN="SPLAT - Amy":MAILTO:amy@splattraining.co.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260310T130000
+DTEND;TZID=Europe/London:20260310T150000
+DTSTAMP:20260309T135111
+CREATED:20260209T180308Z
+LAST-MODIFIED:20260209T180311Z
+UID:10039218-1773147600-1773154800@tlchub.org.uk
+SUMMARY:Art Therapy
+DESCRIPTION:A safe\, gentle healing creative group for people who have experienced life challenges\, such as (but not exclusively) trauma\, anxiety or depression. 
+URL:https://tlchub.org.uk/event/art-therapy/2026-03-10/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Art and crafts,Support groups and services
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/02/SeaShell-logo-2.jpg
+ORGANIZER;CN="Michelle Baron":MAILTO:minxandmatch.painter@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260310T150000
+DTEND;TZID=Europe/London:20260310T170000
+DTSTAMP:20260309T135111
+CREATED:20260210T121350Z
+LAST-MODIFIED:20260210T134733Z
+UID:10039359-1773154800-1773162000@tlchub.org.uk
+SUMMARY:Out Together - Digital Inclusion
+DESCRIPTION:What is Digital Inclusion\n\n\n\nDigital inclusion is one of Out Together’s core projects and a key part of their work across Yorkshire. \n\n\n\nAs more services move online\, many people feel left behind\, frustrated or excluded. This can affect access to healthcare\, benefits\, housing\, social connection and everyday tasks. Our digital inclusion project helps LGBT+ people build confidence using technology in a relaxed\, supportive and judgement-free way. \n\n\n\nWhat the Digital Inclusion project is about\n\n\n\nThe focus of this project is confidence\, not competence. We support people to feel more comfortable using everyday technology at their own pace\, without pressure or assumptions. \n\n\n\nSupport includes: \n\n\n\n\nUsing smartphones\, tablets and computers\n\n\n\nSending emails and managing accounts\n\n\n\nAccessing NHS\, council and government services online\n\n\n\nStaying safe online and avoiding scams\n\n\n\nKeeping in touch with friends\, family and community\n\n\n\nOnline shopping\n\n\n\nSocial Media\n\n\n\nDigital safety\n\n\n\n\nSessions are practical\, friendly and tailored to individual needs. There is no such thing as a silly question. \n\n\n\nWho the project is for\n\n\n\nThis project is for LGBT+ adults who feel unsure\, anxious or frustrated using technology\, or who want a bit of help getting started. \n\n\n\nYou do not need any prior knowledge\, and you do not need to own your own device to take part. \n\n\n\nWhy it matters\n\n\n\nImproving digital confidence can make a huge difference to everyday life. Participants often report feeling more independent\, less stressed and better able to access services and stay connected with others. \n\n\n\nWith basic digital skills\, our members are better equipped to access healthcare\, manage finances\, and communicate with family and friends\, reducing isolation and opening up new opportunities. \n\n\n\nDigital inclusion is particularly crucial for marginalised groups\, including older adults and rural communities\, who may otherwise be left behind as technology advances. By providing the knowledge and confidence to navigate digital tools\, digital inclusion training helps bridge the digital divide\, ensuring everyone can benefit from our increasingly connected world. \n\n\n\nIf you’d like to know more about joining as a member so you can attend Digital Inclusion training or any of our other events\, please click here to register your details with Out Together\, or use the email below.
+URL:https://tlchub.org.uk/event/out-together-digital-inclusion/2026-03-10/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Support groups and services
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/02/Out-Together-logo-scaled.png
+ORGANIZER;CN="Out Together":MAILTO:hello@outtogether.lgbt
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260310T193000
+DTEND;TZID=Europe/London:20260310T210000
+DTSTAMP:20260309T135111
+CREATED:20260129T175032Z
+LAST-MODIFIED:20260129T175039Z
+UID:10033743-1773171000-1773176400@tlchub.org.uk
+SUMMARY:Rollerskating
+DESCRIPTION:Join Tod Rollers\, a friendly and welcoming community roller skating group based in Todmorden College every Tuesday! Bring your own skates. 18+ only. Any questions? Please WhatsApp or Email Gina. See you there!
+URL:https://tlchub.org.uk/event/rollerskating/2026-03-10/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Dance,Sport and exercise
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2024/02/Tod-Rollers-Logo-002.png
+ORGANIZER;CN="Georgina Holmes":MAILTO:gina@thebeyond.co.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260311T090000
+DTEND;TZID=Europe/London:20260311T170000
+DTSTAMP:20260309T135111
+CREATED:20260213T151841Z
+LAST-MODIFIED:20260213T151929Z
+UID:10026052-1773219600-1773248400@tlchub.org.uk
+SUMMARY:Banking Hub
+DESCRIPTION:Our Banking Hub\, provided by Cash Access\, operates Monday – Friday. The Banking Hub has a counter where you can access cash services whenever the hub is open and whoever you bank with: \n\n\n\n\npay in cash (notes and coins) and cheques\n\n\n\nwithdraw cash (notes and coins)\n\n\n\ncheck your balance\n\n\n\npay utility bills\n\n\n\ntop up your gas and electricity\n\n\n\naccess change-giving services (for registered businesses) \n\n\n\n\nYou can also talk to a community banker from your bank on the day your bank is in the hub. There is a private space where you can talk face-to-face about more complicated banking enquiries like payments and transfers\, managing your account\, and how to use online banking. You can view the services available from community bankers from the Community Banker Services  page on the Cash Access website. \n\n\n\n\nMonday – Virgin Money\n\n\n\nTuesday – Lloyds\n\n\n\nWednesday – Halifax\n\n\n\nThursday – Natwest\n\n\n\nFriday – Barclays
+URL:https://tlchub.org.uk/event/banking-hub-2/2026-03-11/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Banking
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/cash-access-uk-banking-hub-website.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260311T093000
+DTEND;TZID=Europe/London:20260311T163000
+DTSTAMP:20260309T135111
+CREATED:20260210T160938Z
+LAST-MODIFIED:20260224T143703Z
+UID:10039364-1773221400-1773246600@tlchub.org.uk
+SUMMARY:First Aid at Work Blended or Requal (3 day or 2 day)
+DESCRIPTION:The course is suitable for people who work in high risk workplaces and covers the worst case scenarios and some of the more common minor stuff and goes on to cover common injuries and conditions a first aider might come across. \n\n\n\n3 Days/Blended – 1 day online learning\, 2 days in the Splat classroom. \n\n\n\nThe 3 day /Blended course means that 6 hours of work must be completed online prior to starting of the 2 day course. Without this completed online element\, delegates will not be able to attend training and places cannot be refunded. (Registration for the online element will be sent separately when booking is complete) \n\n\n\n2 Days/Requalifier –  2 days in the Splat classroom. \n\n\n\nYou are eligible for the 2-day requalifier\, if you have a current ‘First Aid at Work’ certificate. \n\n\n\nFirst Aid Training at Splat is relaxed and enjoyable. We aim to help you learn and support you to get what you need from the day. There are some practical and some multiple-choice assessments but our job is to ensure you have everything you need to pass these easily. \n\n\n\nPlease note that First Aid can be quite physical\, you will need to be able to kneel on the floor to perform CPR and Recovery Position. Please wear comfortable clothing you can move around in\, and\, if possible\, please let us know ahead of time if there is anything we can do to help support you and your enjoyment of the day.
+URL:https://tlchub.org.uk/event/first-aid-at-work-blended-or-requal-3-day-or-2-day/2026-03-11/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:First Aid,Learning
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/02/Splat-Logo-large-1024x576-1.png
+ORGANIZER;CN="SPLAT - Amy":MAILTO:amy@splattraining.co.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260311T110000
+DTEND;TZID=Europe/London:20260311T130000
+DTSTAMP:20260309T135111
+CREATED:20260203T175112Z
+LAST-MODIFIED:20260203T175116Z
+UID:10038059-1773226800-1773234000@tlchub.org.uk
+SUMMARY:Tool Library & Woodworking Drop-in
+DESCRIPTION:Todmorden Makery is a member-run space where volunteers help people do the following activities in drop-in and workshop sessions.
+URL:https://tlchub.org.uk/event/tool-library-woodworking-drop-in/2026-03-11/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Art and crafts,Repair
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/02/MAKERY-GRAPHIC.png
+ORGANIZER;CN="Makery":MAILTO:todmordenmakery@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260311T130000
+DTEND;TZID=Europe/London:20260311T150000
+DTSTAMP:20260309T135111
+CREATED:20260203T173922Z
+LAST-MODIFIED:20260203T173925Z
+UID:10037794-1773234000-1773241200@tlchub.org.uk
+SUMMARY:Textiles & Quiet Drop-in
+DESCRIPTION:Todmorden Makery is a member-run space where volunteers help people do the following activities in drop-in and workshop sessions.
+URL:https://tlchub.org.uk/event/textiles-quiet-drop-in/2026-03-11/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Art and crafts,Repair
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/02/MAKERY-GRAPHIC.png
+ORGANIZER;CN="Makery":MAILTO:todmordenmakery@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260311T133000
+DTEND;TZID=Europe/London:20260311T153000
+DTSTAMP:20260309T135111
+CREATED:20260209T175132Z
+LAST-MODIFIED:20260209T175136Z
+UID:10039210-1773235800-1773243000@tlchub.org.uk
+SUMMARY:Experimental Art Workshops
+DESCRIPTION:Non-structed art sessions where experimental ways of creating are encouraged and supported. Come with or without ideas. Dip into a range of techniques including: Paint\, Pastels\, Print\, Collage & Sculpture.
+URL:https://tlchub.org.uk/event/experimental-art-workshops/2026-03-11/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Art and crafts
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/02/SeaShell-logo.jpg
+ORGANIZER;CN="Michelle Baron":MAILTO:minxandmatch.painter@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260311T180000
+DTEND;TZID=Europe/London:20260311T193000
+DTSTAMP:20260309T135111
+CREATED:20260203T175439Z
+LAST-MODIFIED:20260203T175443Z
+UID:10038324-1773252000-1773257400@tlchub.org.uk
+SUMMARY:Electricals & General Drop-in
+DESCRIPTION:Work on or receive help with your electrical projects/items.
+URL:https://tlchub.org.uk/event/electricals-general-drop-in/2026-03-11/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Art and crafts,Repair
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/02/MAKERY-GRAPHIC.png
+ORGANIZER;CN="Makery":MAILTO:todmordenmakery@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260311T183000
+DTEND;TZID=Europe/London:20260311T193000
+DTSTAMP:20260309T135111
+CREATED:20260128T123305Z
+LAST-MODIFIED:20260203T142234Z
+UID:10032362-1773253800-1773257400@tlchub.org.uk
+SUMMARY:Walking Netball
+DESCRIPTION:Walking netball\, a great way to be sociable with fun activities and exercise!
+URL:https://tlchub.org.uk/event/walking-netball/2026-03-11/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Sport and exercise
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260311T190000
+DTEND;TZID=Europe/London:20260311T203000
+DTSTAMP:20260309T135111
+CREATED:20260127T191538Z
+LAST-MODIFIED:20260203T141645Z
+UID:10029584-1773255600-1773261000@tlchub.org.uk
+SUMMARY:Iyengar Yoga
+DESCRIPTION:Join Debbie Bartholomew for Iyengar Yoga classes in Todmorden! Whatever your experience or ability come along to class and learn the art of Iyengar Yoga in a fun and relaxed environment. \n\n\n\nIyengar Yoga is a long established approach which helps students to build confidence\, fitness and wellbeing.  In class we focus on alignment\, precision\, extension and breath which helps improve the sense of ease in mind and body. \n\n\n\nDebbie is an extremely knowledgable teacher with over 30 years experience.  She holds the level 3 Iyengar teaching qualification and the worldwide Iyengar Yoga certification mark which assures quality and excellence in teaching. \n\n\n\nTo book please use the contact infromation below:
+URL:https://tlchub.org.uk/event/iyengar-yoga/2026-03-11/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Sport and exercise
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/debbie-yoga-1.jpg
+ORGANIZER;CN="Debbie Bartholomew":MAILTO:debbieyoga@yahoo.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260311T190000
+DTEND;TZID=Europe/London:20260311T203000
+DTSTAMP:20260309T135111
+CREATED:20260129T181912Z
+LAST-MODIFIED:20260129T181915Z
+UID:10034283-1773255600-1773261000@tlchub.org.uk
+SUMMARY:Todmorden Karate Club
+DESCRIPTION:Traditional Shotokan Karate\, Taught by 7th Dan Black Belt \, Bob Smith.
+URL:https://tlchub.org.uk/event/todmorden-karate-club/2026-03-11/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/Karate.png
+ORGANIZER;CN="Bob Smith":MAILTO:todmordenshotokankarateclub@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260311T190000
+DTEND;TZID=Europe/London:20260311T210000
+DTSTAMP:20260309T135111
+CREATED:20260128T115559Z
+LAST-MODIFIED:20260203T142331Z
+UID:10031302-1773255600-1773262800@tlchub.org.uk
+SUMMARY:Life Drawing Wednesdays
+DESCRIPTION:Join us every Wednesday for a relaxed and creative life drawing session! Whether you’re a beginner or an experienced artist\, this group is open to everyone who wants to practice their drawing skills in a relaxed and supportive environment. Grab your sketchbook and pencils and come unleash your creativity with us! \n\n\n\nSessions are untutored and self directed. \n\n\n\nBoards and Easels are provided\, materials are not\, but you are welcome to bring anything you would like. There are sinks in the room for paint/ink/clay etc. \n\n\n\nPlease contact Sophie about any access requirements and she will do her best to accommodate you.
+URL:https://tlchub.org.uk/event/life-drawing-wednesdays-2/2026-03-11/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Art and crafts
+ORGANIZER;CN="Sophie Cleaver":MAILTO:sophie_cleaver@hotmail.co.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260312T090000
+DTEND;TZID=Europe/London:20260312T170000
+DTSTAMP:20260309T135111
+CREATED:20260213T151841Z
+LAST-MODIFIED:20260213T151929Z
+UID:10026053-1773306000-1773334800@tlchub.org.uk
+SUMMARY:Banking Hub
+DESCRIPTION:Our Banking Hub\, provided by Cash Access\, operates Monday – Friday. The Banking Hub has a counter where you can access cash services whenever the hub is open and whoever you bank with: \n\n\n\n\npay in cash (notes and coins) and cheques\n\n\n\nwithdraw cash (notes and coins)\n\n\n\ncheck your balance\n\n\n\npay utility bills\n\n\n\ntop up your gas and electricity\n\n\n\naccess change-giving services (for registered businesses) \n\n\n\n\nYou can also talk to a community banker from your bank on the day your bank is in the hub. There is a private space where you can talk face-to-face about more complicated banking enquiries like payments and transfers\, managing your account\, and how to use online banking. You can view the services available from community bankers from the Community Banker Services  page on the Cash Access website. \n\n\n\n\nMonday – Virgin Money\n\n\n\nTuesday – Lloyds\n\n\n\nWednesday – Halifax\n\n\n\nThursday – Natwest\n\n\n\nFriday – Barclays
+URL:https://tlchub.org.uk/event/banking-hub-2/2026-03-12/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Banking
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/cash-access-uk-banking-hub-website.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260312T093000
+DTEND;TZID=Europe/London:20260312T163000
+DTSTAMP:20260309T135111
+CREATED:20260210T160938Z
+LAST-MODIFIED:20260224T143703Z
+UID:10039365-1773307800-1773333000@tlchub.org.uk
+SUMMARY:First Aid at Work Blended or Requal (3 day or 2 day)
+DESCRIPTION:The course is suitable for people who work in high risk workplaces and covers the worst case scenarios and some of the more common minor stuff and goes on to cover common injuries and conditions a first aider might come across. \n\n\n\n3 Days/Blended – 1 day online learning\, 2 days in the Splat classroom. \n\n\n\nThe 3 day /Blended course means that 6 hours of work must be completed online prior to starting of the 2 day course. Without this completed online element\, delegates will not be able to attend training and places cannot be refunded. (Registration for the online element will be sent separately when booking is complete) \n\n\n\n2 Days/Requalifier –  2 days in the Splat classroom. \n\n\n\nYou are eligible for the 2-day requalifier\, if you have a current ‘First Aid at Work’ certificate. \n\n\n\nFirst Aid Training at Splat is relaxed and enjoyable. We aim to help you learn and support you to get what you need from the day. There are some practical and some multiple-choice assessments but our job is to ensure you have everything you need to pass these easily. \n\n\n\nPlease note that First Aid can be quite physical\, you will need to be able to kneel on the floor to perform CPR and Recovery Position. Please wear comfortable clothing you can move around in\, and\, if possible\, please let us know ahead of time if there is anything we can do to help support you and your enjoyment of the day.
+URL:https://tlchub.org.uk/event/first-aid-at-work-blended-or-requal-3-day-or-2-day/2026-03-12/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:First Aid,Learning
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/02/Splat-Logo-large-1024x576-1.png
+ORGANIZER;CN="SPLAT - Amy":MAILTO:amy@splattraining.co.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260312T100000
+DTEND;TZID=Europe/London:20260312T120000
+DTSTAMP:20260309T135111
+CREATED:20260128T115656Z
+LAST-MODIFIED:20260203T141506Z
+UID:10031569-1773309600-1773316800@tlchub.org.uk
+SUMMARY:Life Drawing Thursdays
+DESCRIPTION:Join us every Wednesday for a relaxed and creative life drawing session! Whether you’re a beginner or an experienced artist\, this group is open to everyone who wants to practice their drawing skills in a relaxed and supportive environment. Grab your sketchbook and pencils and come unleash your creativity with us! \n\n\n\nSessions are untutored and self directed. \n\n\n\nBoards and Easels are provided\, materials are not\, but you are welcome to bring anything you would like. There are sinks in the room for paint/ink/clay etc. \n\n\n\nPlease contact Sophie about any access requirements and she will do her best to accommodate you.
+URL:https://tlchub.org.uk/event/life-drawing-thursdays/2026-03-12/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Art and crafts
+ORGANIZER;CN="Sophie Cleaver":MAILTO:sophie_cleaver@hotmail.co.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260312T100000
+DTEND;TZID=Europe/London:20260312T120000
+DTSTAMP:20260309T135111
+CREATED:20260203T184402Z
+LAST-MODIFIED:20260203T184408Z
+UID:10038649-1773309600-1773316800@tlchub.org.uk
+SUMMARY:Sing & Breathe
+DESCRIPTION:Singing for anyone affected by a long term lung condition from asthma to COPD. Supported by Asthma + Lung UK
+URL:https://tlchub.org.uk/event/sing-breathe/2026-03-12/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:music,Support groups and services
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/02/logo-draft-6.png
+ORGANIZER;CN="Shared Harmonies":MAILTO:admin@sharedharmonies.co.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260312T130000
+DTEND;TZID=Europe/London:20260312T153000
+DTSTAMP:20260309T135111
+CREATED:20260127T183641Z
+LAST-MODIFIED:20260127T185810Z
+UID:10028792-1773320400-1773329400@tlchub.org.uk
+SUMMARY:Calderdale Adult Learning - Functional Skills (Maths)
+DESCRIPTION:Qualifications in Maths from Entry Level through to Level 2. Develop your Maths skills with tasks adapted for different learning styles and abilities.
+URL:https://tlchub.org.uk/event/calderdale-adult-learning-functional-skills-maths/2026-03-12/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Learning
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/calogo.png
+ORGANIZER;CN="Calderdale Adult Learning%3A":MAILTO:cyps.cal@calderdale.gov.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260312T140000
+DTEND;TZID=Europe/London:20260312T163000
+DTSTAMP:20260309T135111
+CREATED:20260203T101919Z
+LAST-MODIFIED:20260218T162811Z
+UID:10035127-1773324000-1773333000@tlchub.org.uk
+SUMMARY:Art Class
+DESCRIPTION:Join a creative community\, learn new skills and develop your own art style in a supportive environment! These Art classes are for all abilities and include drawing\, painting\, print\, collage\, etc. + exhibitions and trips! 19+ \n\n\n\nTo book & enquire please contact Lisa –
+URL:https://tlchub.org.uk/event/art-class/2026-03-12/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Art and crafts
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/cloud-factory-arts.jpeg
+ORGANIZER;CN="Lisa Gort%3A":MAILTO:lisagortcloudfactory@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260312T170000
+DTEND;TZID=Europe/London:20260312T200000
+DTSTAMP:20260309T135111
+CREATED:20260128T120845Z
+LAST-MODIFIED:20260128T123730Z
+UID:10031833-1773334800-1773345600@tlchub.org.uk
+SUMMARY:Pilates Thursdays
+DESCRIPTION:This group is a small clinical Pilates class – perfect for anyone with injuries or back pain as a way to get stronger and back to activities. Offering small group classes ensures that the supervision of the exercises is excellent and the student quickly develops the confidence to build Pilates into their everyday life. \n\n\n\nOur Pilates Teachers are also Chartered Physiotherapists\, so we fully understands any medical condition you may have and can successfully modify Pilates exercises to suit you. If you have Health Insurance you may be able to claim for Pilates as part of your Rehabilitation.
+URL:https://tlchub.org.uk/event/pilates-thursdays/2026-03-12/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Sport and exercise
+ATTACH;FMTTYPE=image/png:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/physioapies-logo.png
+ORGANIZER;CN="Lynne Midwinter":MAILTO:lynne@physiotherapies.co.uk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260312T180000
+DTEND;TZID=Europe/London:20260312T203000
+DTSTAMP:20260309T135111
+CREATED:20260127T185215Z
+LAST-MODIFIED:20260218T162351Z
+UID:10029056-1773338400-1773347400@tlchub.org.uk
+SUMMARY:Art Class
+DESCRIPTION:Join a creative community\, learn new skills and develop your own art style in a supportive environment! These Art classes are for all abilities and include drawing\, painting\, print\, collage\, etc. + exhibitions and trips! 19+ \n\n\n\nTo book & enquire please contact Lisa –
+URL:https://tlchub.org.uk/event/cloud-factory-art-classes/2026-03-12/
+LOCATION:Todmorden Learning Centre and Community Hub\, Todmorden Learning Centre and Community Hub\, Burnley Rd\, Todmorden\, OL14 7BX\, United Kingdom
+CATEGORIES:Art and crafts
+ATTACH;FMTTYPE=image/jpeg:https://usercontent.one/wp/tlchub.org.uk/wp-content/uploads/2026/01/cloud-factory-arts.jpeg
+ORGANIZER;CN="Lisa Gort%3A":MAILTO:lisagortcloudfactory@gmail.com
+END:VEVENT
+END:VCALENDAR

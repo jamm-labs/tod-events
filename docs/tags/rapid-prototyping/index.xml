@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Rapid Prototyping on Todmorden Events</title>
-        <link>http://localhost:1313/tod-events/tags/rapid-prototyping/</link>
+        <link>https://jamm-labs.github.io/tod-events/tags/rapid-prototyping/</link>
         <description>Recent content in Rapid Prototyping on Todmorden Events</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-gb</language>
-        <lastBuildDate>Fri, 20 Feb 2026 14:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tod-events/tags/rapid-prototyping/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 20 Feb 2026 14:00:00 +0000</lastBuildDate><atom:link href="https://jamm-labs.github.io/tod-events/tags/rapid-prototyping/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Game jam taster, build a tiny game in two hours</title>
-        <link>http://localhost:1313/tod-events/events/game-jam-taster/</link>
+        <link>https://jamm-labs.github.io/tod-events/events/game-jam-taster/</link>
         <pubDate>Fri, 20 Feb 2026 14:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tod-events/events/game-jam-taster/</guid>
+        <guid>https://jamm-labs.github.io/tod-events/events/game-jam-taster/</guid>
         <description>&lt;p&gt;A relaxed introduction to game jams. We will form small teams (or work solo), pick a playful theme, and build a tiny game using a starter template.&lt;/p&gt;
 &lt;p&gt;No experience needed. Bring a laptop if you can.&lt;/p&gt;
 </description>

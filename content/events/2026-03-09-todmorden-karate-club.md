@@ -1,0 +1,7 @@
+---
+title: Todmorden Karate Club
+date: 2026-03-09T19:00:00
+end: 2026-03-09T20:30:00
+---
+
+Traditional Shotokan Karate, Taught by 7th Dan Black Belt , Bob Smith.
