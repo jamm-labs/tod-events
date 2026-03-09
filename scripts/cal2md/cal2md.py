@@ -29,9 +29,17 @@ args = parser.parse_args()
 
 
 def main(cal_path, method, output_path):
+    """
+    The main function for the script.
+
+    :param cal_path: The path to the calendar
+    :param method: Description
+    :param output_path: Description
+    """
     # Create output directory if it doesn't exist
     os.makedirs(output_path, exist_ok=True)
 
+    # Instantiating the calendar object
     calendar = Calendar()
 
     # Determine if cal_path is a URL or a local file
