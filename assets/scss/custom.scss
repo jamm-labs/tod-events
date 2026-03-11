@@ -7,3 +7,30 @@
 .article-list--tile > article {
   margin: 0 !important;
 }
+
+.event-card {
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.article-list--tile article {
+  height: auto;
+  width: auto;
+}
+
+.article-list--tile .article-image {
+  display: none;
+}
+
+.article-list--tile article:nth-child(6n+1) { background:#f8e8ee; }
+.article-list--tile article:nth-child(6n+2) { background:#e8f8f5; }
+.article-list--tile article:nth-child(6n+3) { background:#f9f3d2; }
+.article-list--tile article:nth-child(6n+4) { background:#e8ecf8; }
+.article-list--tile article:nth-child(6n+5) { background:#f4e8f8; }
+.article-list--tile article:nth-child(6n+6) { background:#e8f8ef; }
+
+.article-list--tile article {
+  border-radius: 10px;
+  padding: 0.8rem;
+}
