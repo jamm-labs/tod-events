@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<header class="section-header">
+    <h1 class="section-term">{{ .Title }}</h1>
+</header>
+
+{{ $now := now }}
+
+{{/* only future tagged events */}}
+{{ $events := where .Pages "Date" "ge" $now }}
+{{ $events = $events.ByDate }}
+
+{{ partial "events-list.html" (dict
+  "Context" .
+  "Events" $events
+) }}
+
+{{ end }}

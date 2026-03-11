@@ -1,7 +1,7 @@
 ---
 title: "Family Coding Club"
-date: 2026-02-21T10:30:00
-end: 2026-02-21T12:00:00
+date: 2026-04-21T10:30:00
+end: 2026-04-21T12:00:00
 location: "Todmorden Library"
 tags: ["coding", "family", "learning"]
 draft: false
